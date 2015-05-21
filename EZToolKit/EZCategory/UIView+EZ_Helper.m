@@ -18,4 +18,23 @@
     
     return image;
 }
+
+
+- (UIImage *)ez_snapshotImageAfterScreenUpdates:(BOOL)afterUpdates
+{
+    if (floor(NSFoundationVersionNumber) <= NSFoundationVersionNumber_iOS_6_1) {
+        return [self ez_snapshotImage];
+    } else {
+        
+        UIImage *snapshotImage;
+        UIGraphicsBeginImageContextWithOptions(self.frame.size, NO, 0.0);
+        {
+            [self drawViewHierarchyInRect:self.bounds afterScreenUpdates:afterUpdates];
+            snapshotImage = UIGraphicsGetImageFromCurrentImageContext();
+        }
+        UIGraphicsEndImageContext();
+        
+        return snapshotImage;
+    }
+}
 @end

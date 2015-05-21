@@ -21,6 +21,10 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		99A50EDB1B0DCBFB002FE8BF /* UIView+EZ_Rect.h in Headers */ = {isa = PBXBuildFile; fileRef = 99A50ED91B0DCBFB002FE8BF /* UIView+EZ_Rect.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		99A50EDC1B0DCBFB002FE8BF /* UIView+EZ_Rect.m in Sources */ = {isa = PBXBuildFile; fileRef = 99A50EDA1B0DCBFB002FE8BF /* UIView+EZ_Rect.m */; };
+		99A50EDF1B0DD63F002FE8BF /* UIImage+EZ_Helper.h in Headers */ = {isa = PBXBuildFile; fileRef = 99A50EDD1B0DD63F002FE8BF /* UIImage+EZ_Helper.h */; };
+		99A50EE01B0DD63F002FE8BF /* UIImage+EZ_Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 99A50EDE1B0DD63F002FE8BF /* UIImage+EZ_Helper.m */; };
 		99B328521B0C6BC500E9C905 /* NSNull+EZ_System.h in Headers */ = {isa = PBXBuildFile; fileRef = 99B328501B0C6BC500E9C905 /* NSNull+EZ_System.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		99B328531B0C6BC500E9C905 /* NSNull+EZ_System.m in Sources */ = {isa = PBXBuildFile; fileRef = 99B328511B0C6BC500E9C905 /* NSNull+EZ_System.m */; };
 		99B328561B0C87CA00E9C905 /* NSString+EZ_Helper.h in Headers */ = {isa = PBXBuildFile; fileRef = 99B328541B0C87CA00E9C905 /* NSString+EZ_Helper.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -69,6 +73,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		99A50ED91B0DCBFB002FE8BF /* UIView+EZ_Rect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+EZ_Rect.h"; sourceTree = "<group>"; };
+		99A50EDA1B0DCBFB002FE8BF /* UIView+EZ_Rect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+EZ_Rect.m"; sourceTree = "<group>"; };
+		99A50EDD1B0DD63F002FE8BF /* UIImage+EZ_Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+EZ_Helper.h"; sourceTree = "<group>"; };
+		99A50EDE1B0DD63F002FE8BF /* UIImage+EZ_Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+EZ_Helper.m"; sourceTree = "<group>"; };
 		99B328501B0C6BC500E9C905 /* NSNull+EZ_System.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNull+EZ_System.h"; sourceTree = "<group>"; };
 		99B328511B0C6BC500E9C905 /* NSNull+EZ_System.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNull+EZ_System.m"; sourceTree = "<group>"; };
 		99B328541B0C87CA00E9C905 /* NSString+EZ_Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+EZ_Helper.h"; sourceTree = "<group>"; };
@@ -208,6 +216,8 @@
 				99B328851B0CD02100E9C905 /* UIViewController+EZ_Helper.m */,
 				99CB0BC91B0C49D7003B8FCF /* UIColor+EZ_Helper.h */,
 				99CB0BCA1B0C49D7003B8FCF /* UIColor+EZ_Helper.m */,
+				99A50EDD1B0DD63F002FE8BF /* UIImage+EZ_Helper.h */,
+				99A50EDE1B0DD63F002FE8BF /* UIImage+EZ_Helper.m */,
 				99B3286C1B0C917D00E9C905 /* UIImage+EZ_Orientation.h */,
 				99B3286D1B0C917D00E9C905 /* UIImage+EZ_Orientation.m */,
 				99B328741B0CB4B800E9C905 /* UILabel+EZ_Rect.h */,
@@ -216,6 +226,8 @@
 				99B328791B0CC6BC00E9C905 /* UIView+EZ_Helper.m */,
 				99B3287C1B0CC95500E9C905 /* UIView+EZ_Action.h */,
 				99B3287D1B0CC95500E9C905 /* UIView+EZ_Action.m */,
+				99A50ED91B0DCBFB002FE8BF /* UIView+EZ_Rect.h */,
+				99A50EDA1B0DCBFB002FE8BF /* UIView+EZ_Rect.m */,
 			);
 			path = EZCategory;
 			sourceTree = "<group>";
@@ -235,10 +247,12 @@
 				99CB0BB21B0C2F1D003B8FCF /* EZToolKit.h in Headers */,
 				99CB0BCB1B0C49D7003B8FCF /* UIColor+EZ_Helper.h in Headers */,
 				99B3288A1B0CD4CD00E9C905 /* NSObject+EZ_Association.h in Headers */,
+				99A50EDB1B0DCBFB002FE8BF /* UIView+EZ_Rect.h in Headers */,
 				99B3286E1B0C917D00E9C905 /* UIImage+EZ_Orientation.h in Headers */,
 				99B328861B0CD02100E9C905 /* UIViewController+EZ_Helper.h in Headers */,
 				99B328621B0C8A3300E9C905 /* NSTimer+EZ_Helper.h in Headers */,
 				99B3285A1B0C887B00E9C905 /* NSString+EZ_Parse.h in Headers */,
+				99A50EDF1B0DD63F002FE8BF /* UIImage+EZ_Helper.h in Headers */,
 				99B3287A1B0CC6BC00E9C905 /* UIView+EZ_Helper.h in Headers */,
 				99B328521B0C6BC500E9C905 /* NSNull+EZ_System.h in Headers */,
 				99B3286A1B0C8E1300E9C905 /* NSData+EZ_Parse.h in Headers */,
@@ -363,9 +377,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99A50EE01B0DD63F002FE8BF /* UIImage+EZ_Helper.m in Sources */,
 				99B328771B0CB4B800E9C905 /* UILabel+EZ_Rect.m in Sources */,
 				99B328731B0CAF8800E9C905 /* NSObject+EZ_Parse.m in Sources */,
 				99B3288B1B0CD4CD00E9C905 /* NSObject+EZ_Association.m in Sources */,
+				99A50EDC1B0DCBFB002FE8BF /* UIView+EZ_Rect.m in Sources */,
 				99CB0BCC1B0C49D7003B8FCF /* UIColor+EZ_Helper.m in Sources */,
 				99B3287B1B0CC6BC00E9C905 /* UIView+EZ_Helper.m in Sources */,
 				99B328631B0C8A3300E9C905 /* NSTimer+EZ_Helper.m in Sources */,

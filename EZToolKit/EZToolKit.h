@@ -26,6 +26,7 @@
 #import <EZToolKit/UILabel+EZ_Rect.h>
 #import <EZToolKit/UIView+EZ_Helper.h>
 #import <EZToolKit/UIView+EZ_Action.h>
+#import <EZToolKit/UIView+EZ_Rect.h>
 
 //! Project version number for EZToolKit.
 FOUNDATION_EXPORT double EZToolKitVersionNumber;
