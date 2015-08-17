@@ -88,7 +88,7 @@
 
 //---------------------------------------------------------------------
 
-- (CGFloat)height
+- (CGFloat)ez_height
 {
     return self.ez_size.height;
 }
