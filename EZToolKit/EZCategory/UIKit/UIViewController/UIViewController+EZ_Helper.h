@@ -10,4 +10,9 @@
 
 @interface UIViewController (EZ_Helper)
 
++ (UIViewController *)ez_UIViewControllerFromView:(UIView *)view;
++ (UIViewController *)ez_presentedUIViewControllerFromViewController:(UIViewController *)viewController;
+
+- (void)ez_displayController:(UIViewController *)controller frame:(CGRect)frame;
+- (void)ez_hideController:(UIViewController *)controller;
 @end
