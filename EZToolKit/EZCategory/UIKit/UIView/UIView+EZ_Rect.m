@@ -256,4 +256,22 @@
 
 
 
+#pragma mark - view methods
+- (CGFloat)ez_viewGetWidth{
+    if ((NSFoundationVersionNumber > NSFoundationVersionNumber_iOS_7_1)) {
+        return  CGRectGetWidth(self.frame);
+    }else{
+        return UIDeviceOrientationIsLandscape([UIDevice currentDevice].orientation)?CGRectGetHeight(self.frame):CGRectGetWidth(self.frame);
+    }
+}
+
+- (CGFloat)ez_viewGetHeight{
+    if ((NSFoundationVersionNumber > NSFoundationVersionNumber_iOS_7_1)) {
+        return  CGRectGetHeight(self.frame);
+    }else{
+        return UIDeviceOrientationIsLandscape([UIDevice currentDevice].orientation)?CGRectGetWidth(self.frame):CGRectGetHeight(self.frame);
+    }
+}
+
+
 @end

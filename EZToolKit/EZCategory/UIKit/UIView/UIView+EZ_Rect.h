@@ -68,4 +68,7 @@
  @throws NSGenericException if superview = nil */
 - (void)ez_setBottomMargin:(CGFloat)bottom;
 
+#pragma mark - view methods
+- (CGFloat)btn_viewGetWidth;
+- (CGFloat)btn_viewGetHeight;
 @end
