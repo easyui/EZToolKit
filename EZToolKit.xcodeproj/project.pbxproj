@@ -61,11 +61,15 @@
 		9922BEE61B272026007E6F2A /* NSURL+EZ_Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 9922BEE41B272026007E6F2A /* NSURL+EZ_Helper.m */; };
 		9922BEE91B272263007E6F2A /* NSBundle+EZ_AppIcon.h in Headers */ = {isa = PBXBuildFile; fileRef = 9922BEE71B272263007E6F2A /* NSBundle+EZ_AppIcon.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9922BEEA1B272263007E6F2A /* NSBundle+EZ_AppIcon.m in Sources */ = {isa = PBXBuildFile; fileRef = 9922BEE81B272263007E6F2A /* NSBundle+EZ_AppIcon.m */; };
+		992752CE1B8ECAE700C77CA0 /* UIScreen+EZ_Rect.h in Headers */ = {isa = PBXBuildFile; fileRef = 992752CC1B8ECAE700C77CA0 /* UIScreen+EZ_Rect.h */; };
+		992752CF1B8ECAE700C77CA0 /* UIScreen+EZ_Rect.m in Sources */ = {isa = PBXBuildFile; fileRef = 992752CD1B8ECAE700C77CA0 /* UIScreen+EZ_Rect.m */; };
 		99563B811B4B68D300918045 /* NSString+EZ_Rect.h in Headers */ = {isa = PBXBuildFile; fileRef = 99563B7F1B4B68D300918045 /* NSString+EZ_Rect.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		99563B821B4B68D300918045 /* NSString+EZ_Rect.m in Sources */ = {isa = PBXBuildFile; fileRef = 99563B801B4B68D300918045 /* NSString+EZ_Rect.m */; };
 		99CB0BB21B0C2F1D003B8FCF /* EZToolKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 99CB0BB11B0C2F1D003B8FCF /* EZToolKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		99CB0BB81B0C2F1D003B8FCF /* EZToolKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99CB0BAC1B0C2F1D003B8FCF /* EZToolKit.framework */; };
 		99CB0BBF1B0C2F1D003B8FCF /* EZToolKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 99CB0BBE1B0C2F1D003B8FCF /* EZToolKitTests.m */; };
+		99D43DBB1BA6C84D00B78BCA /* NSObject+EZ_KVO.h in Headers */ = {isa = PBXBuildFile; fileRef = 99D43DB91BA6C84D00B78BCA /* NSObject+EZ_KVO.h */; };
+		99D43DBC1BA6C84D00B78BCA /* NSObject+EZ_KVO.m in Sources */ = {isa = PBXBuildFile; fileRef = 99D43DBA1BA6C84D00B78BCA /* NSObject+EZ_KVO.m */; };
 		99ED5E9B1B274B160095CA48 /* UIWindow+EZ_helper.h in Headers */ = {isa = PBXBuildFile; fileRef = 99ED5E991B274B160095CA48 /* UIWindow+EZ_helper.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		99ED5E9C1B274B160095CA48 /* UIWindow+EZ_helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 99ED5E9A1B274B160095CA48 /* UIWindow+EZ_helper.m */; };
 		99ED5E9F1B274BDF0095CA48 /* NSObject+EZ_Helper.h in Headers */ = {isa = PBXBuildFile; fileRef = 99ED5E9D1B274BDF0095CA48 /* NSObject+EZ_Helper.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -123,6 +127,8 @@
 		9922BEE41B272026007E6F2A /* NSURL+EZ_Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+EZ_Helper.m"; sourceTree = "<group>"; };
 		9922BEE71B272263007E6F2A /* NSBundle+EZ_AppIcon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+EZ_AppIcon.h"; sourceTree = "<group>"; };
 		9922BEE81B272263007E6F2A /* NSBundle+EZ_AppIcon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+EZ_AppIcon.m"; sourceTree = "<group>"; };
+		992752CC1B8ECAE700C77CA0 /* UIScreen+EZ_Rect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScreen+EZ_Rect.h"; sourceTree = "<group>"; };
+		992752CD1B8ECAE700C77CA0 /* UIScreen+EZ_Rect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScreen+EZ_Rect.m"; sourceTree = "<group>"; };
 		99563B7F1B4B68D300918045 /* NSString+EZ_Rect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+EZ_Rect.h"; sourceTree = "<group>"; };
 		99563B801B4B68D300918045 /* NSString+EZ_Rect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+EZ_Rect.m"; sourceTree = "<group>"; };
 		99CB0BAC1B0C2F1D003B8FCF /* EZToolKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EZToolKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -131,6 +137,8 @@
 		99CB0BB71B0C2F1D003B8FCF /* EZToolKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EZToolKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		99CB0BBD1B0C2F1D003B8FCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		99CB0BBE1B0C2F1D003B8FCF /* EZToolKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EZToolKitTests.m; sourceTree = "<group>"; };
+		99D43DB91BA6C84D00B78BCA /* NSObject+EZ_KVO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+EZ_KVO.h"; sourceTree = "<group>"; };
+		99D43DBA1BA6C84D00B78BCA /* NSObject+EZ_KVO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+EZ_KVO.m"; sourceTree = "<group>"; };
 		99ED5E991B274B160095CA48 /* UIWindow+EZ_helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWindow+EZ_helper.h"; sourceTree = "<group>"; };
 		99ED5E9A1B274B160095CA48 /* UIWindow+EZ_helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+EZ_helper.m"; sourceTree = "<group>"; };
 		99ED5E9D1B274BDF0095CA48 /* NSObject+EZ_Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+EZ_Helper.h"; sourceTree = "<group>"; };
@@ -273,6 +281,8 @@
 				9922BE851B271E27007E6F2A /* NSObject+EZ_Parse.m */,
 				99ED5E9D1B274BDF0095CA48 /* NSObject+EZ_Helper.h */,
 				99ED5E9E1B274BDF0095CA48 /* NSObject+EZ_Helper.m */,
+				99D43DB91BA6C84D00B78BCA /* NSObject+EZ_KVO.h */,
+				99D43DBA1BA6C84D00B78BCA /* NSObject+EZ_KVO.m */,
 			);
 			path = NSObject;
 			sourceTree = "<group>";
@@ -461,6 +471,8 @@
 		9922BEAB1B271E27007E6F2A /* UIScreen */ = {
 			isa = PBXGroup;
 			children = (
+				992752CC1B8ECAE700C77CA0 /* UIScreen+EZ_Rect.h */,
+				992752CD1B8ECAE700C77CA0 /* UIScreen+EZ_Rect.m */,
 			);
 			path = UIScreen;
 			sourceTree = "<group>";
@@ -635,6 +647,7 @@
 				9922BEE11B271E27007E6F2A /* UIViewController+EZ_Helper.h in Headers */,
 				9922BEC71B271E27007E6F2A /* NSObject+EZ_Parse.h in Headers */,
 				9922BEDB1B271E27007E6F2A /* UIView+EZ_Action.h in Headers */,
+				99D43DBB1BA6C84D00B78BCA /* NSObject+EZ_KVO.h in Headers */,
 				9922BEE51B272026007E6F2A /* NSURL+EZ_Helper.h in Headers */,
 				99563B811B4B68D300918045 /* NSString+EZ_Rect.h in Headers */,
 				9922BEC91B271E27007E6F2A /* NSString+EZ_Format.h in Headers */,
@@ -642,6 +655,7 @@
 				9922BEE91B272263007E6F2A /* NSBundle+EZ_AppIcon.h in Headers */,
 				9922BED11B271E27007E6F2A /* UIColor+EZ_Helper.h in Headers */,
 				9922BED31B271E27007E6F2A /* UIDevice+EZ_Helper.h in Headers */,
+				992752CE1B8ECAE700C77CA0 /* UIScreen+EZ_Rect.h in Headers */,
 				9922BED91B271E27007E6F2A /* UILabel+EZ_Rect.h in Headers */,
 				9922BECF1B271E27007E6F2A /* NSTimer+EZ_Helper.h in Headers */,
 				99CB0BB21B0C2F1D003B8FCF /* EZToolKit.h in Headers */,
@@ -774,10 +788,12 @@
 				9922BECE1B271E27007E6F2A /* NSString+EZ_Parse.m in Sources */,
 				9922BEC41B271E27007E6F2A /* NSNull+EZ_System.m in Sources */,
 				99563B821B4B68D300918045 /* NSString+EZ_Rect.m in Sources */,
+				992752CF1B8ECAE700C77CA0 /* UIScreen+EZ_Rect.m in Sources */,
 				9922BEE21B271E27007E6F2A /* UIViewController+EZ_Helper.m in Sources */,
 				9922BED01B271E27007E6F2A /* NSTimer+EZ_Helper.m in Sources */,
 				9922BEC21B271E27007E6F2A /* NSDate+EZ_Format.m in Sources */,
 				9922BEDC1B271E27007E6F2A /* UIView+EZ_Action.m in Sources */,
+				99D43DBC1BA6C84D00B78BCA /* NSObject+EZ_KVO.m in Sources */,
 				9922BECC1B271E27007E6F2A /* NSString+EZ_Helper.m in Sources */,
 				9922BED81B271E27007E6F2A /* UIImage+EZ_Orientation.m in Sources */,
 				9922BEEA1B272263007E6F2A /* NSBundle+EZ_AppIcon.m in Sources */,
