@@ -19,7 +19,7 @@
 @property (nonatomic, assign) CGFloat ez_x;
 @property (nonatomic, assign) CGFloat ez_y;
 
-@property (nonatomic, assign) CGSize ez_size;
+@property (nonatomic, assign) CGSize  ez_size;
 @property (nonatomic, assign) CGFloat ez_width;
 @property (nonatomic, assign) CGFloat ez_height;
 
@@ -69,6 +69,6 @@
 - (void)ez_setBottomMargin:(CGFloat)bottom;
 
 #pragma mark - view methods
-- (CGFloat)btn_viewGetWidth;
-- (CGFloat)btn_viewGetHeight;
+- (CGFloat)ez_viewGetWidth;
+- (CGFloat)ez_viewGetHeight;
 @end
