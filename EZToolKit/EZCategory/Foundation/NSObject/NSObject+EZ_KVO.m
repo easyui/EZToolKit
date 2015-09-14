@@ -6,7 +6,7 @@
 //  Copyright (c) 2015年 Cactus. All rights reserved.
 //
 
-#import "NSObject+KVO.h"
+#import "NSObject+EZ_KVO.h"
 #import <objc/runtime.h>
 #import <objc/message.h>
 
