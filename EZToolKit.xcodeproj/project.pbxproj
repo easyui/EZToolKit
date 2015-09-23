@@ -61,14 +61,14 @@
 		9922BEE61B272026007E6F2A /* NSURL+EZ_Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 9922BEE41B272026007E6F2A /* NSURL+EZ_Helper.m */; };
 		9922BEE91B272263007E6F2A /* NSBundle+EZ_AppIcon.h in Headers */ = {isa = PBXBuildFile; fileRef = 9922BEE71B272263007E6F2A /* NSBundle+EZ_AppIcon.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9922BEEA1B272263007E6F2A /* NSBundle+EZ_AppIcon.m in Sources */ = {isa = PBXBuildFile; fileRef = 9922BEE81B272263007E6F2A /* NSBundle+EZ_AppIcon.m */; };
-		992752CE1B8ECAE700C77CA0 /* UIScreen+EZ_Rect.h in Headers */ = {isa = PBXBuildFile; fileRef = 992752CC1B8ECAE700C77CA0 /* UIScreen+EZ_Rect.h */; };
+		992752CE1B8ECAE700C77CA0 /* UIScreen+EZ_Rect.h in Headers */ = {isa = PBXBuildFile; fileRef = 992752CC1B8ECAE700C77CA0 /* UIScreen+EZ_Rect.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		992752CF1B8ECAE700C77CA0 /* UIScreen+EZ_Rect.m in Sources */ = {isa = PBXBuildFile; fileRef = 992752CD1B8ECAE700C77CA0 /* UIScreen+EZ_Rect.m */; };
 		99563B811B4B68D300918045 /* NSString+EZ_Rect.h in Headers */ = {isa = PBXBuildFile; fileRef = 99563B7F1B4B68D300918045 /* NSString+EZ_Rect.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		99563B821B4B68D300918045 /* NSString+EZ_Rect.m in Sources */ = {isa = PBXBuildFile; fileRef = 99563B801B4B68D300918045 /* NSString+EZ_Rect.m */; };
 		99CB0BB21B0C2F1D003B8FCF /* EZToolKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 99CB0BB11B0C2F1D003B8FCF /* EZToolKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		99CB0BB81B0C2F1D003B8FCF /* EZToolKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99CB0BAC1B0C2F1D003B8FCF /* EZToolKit.framework */; };
 		99CB0BBF1B0C2F1D003B8FCF /* EZToolKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 99CB0BBE1B0C2F1D003B8FCF /* EZToolKitTests.m */; };
-		99D43DBB1BA6C84D00B78BCA /* NSObject+EZ_KVO.h in Headers */ = {isa = PBXBuildFile; fileRef = 99D43DB91BA6C84D00B78BCA /* NSObject+EZ_KVO.h */; };
+		99D43DBB1BA6C84D00B78BCA /* NSObject+EZ_KVO.h in Headers */ = {isa = PBXBuildFile; fileRef = 99D43DB91BA6C84D00B78BCA /* NSObject+EZ_KVO.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		99D43DBC1BA6C84D00B78BCA /* NSObject+EZ_KVO.m in Sources */ = {isa = PBXBuildFile; fileRef = 99D43DBA1BA6C84D00B78BCA /* NSObject+EZ_KVO.m */; };
 		99ED5E9B1B274B160095CA48 /* UIWindow+EZ_helper.h in Headers */ = {isa = PBXBuildFile; fileRef = 99ED5E991B274B160095CA48 /* UIWindow+EZ_helper.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		99ED5E9C1B274B160095CA48 /* UIWindow+EZ_helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 99ED5E9A1B274B160095CA48 /* UIWindow+EZ_helper.m */; };
