@@ -8,6 +8,7 @@
 
 #import "NSObject+EZ_Helper.h"
 #import <UIKit/UIKit.h>
+
 @implementation NSObject (EZ_Helper)
 - (id)ez_performSelector:(SEL)aSelector withObject:(NSArray *)objects{
     NSInvocation *invocation;
@@ -175,4 +176,8 @@ static NSDictionary *__ez_rangeToDictionary(NSRange range)
 {
     return @{@"location": @(range.location), @"length": @(range.length)};
 }
+
+
+
+
 @end

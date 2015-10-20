@@ -10,5 +10,4 @@
 
 @interface NSObject (EZ_Helper)
 - (id)ez_performSelector:(SEL)aSelector withObject:(NSArray *)objects;
-
 @end
