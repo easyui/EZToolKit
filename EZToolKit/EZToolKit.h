@@ -16,6 +16,7 @@
 #import <EZToolKit/NSObject+EZ_Parse.h>
 #import <EZToolKit/NSObject+EZ_Association.h>
 #import <EZToolKit/NSObject+EZ_KVO.h>
+#import <EZToolKit/NSObject+EZ_AutoCoding.h>
 
 #import <EZToolKit/NSNull+EZ_System.h>
 #import <EZToolKit/NSString+EZ_Helper.h>
@@ -29,6 +30,7 @@
 
 #import <EZToolKit/UIDevice+EZ_Helper.h>
 #import <EZToolKit/UIViewController+EZ_Helper.h>
+#import <EZToolKit/UIViewController+EZ_NavigationBar.h>
 #import <EZToolKit/UIColor+EZ_Helper.h>
 #import <EZToolKit/UIImage+EZ_Orientation.h>
 #import <EZToolKit/UIImage+EZ_Helper.h>
