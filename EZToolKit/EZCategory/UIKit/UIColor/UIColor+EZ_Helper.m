@@ -28,4 +28,13 @@
                             blue:b / 255.0f
                            alpha:1.0f];
 }
+
+
++ (UIColor *)ez_UIColorWithRed:(CGFloat)red green:(CGFloat)green blue:(CGFloat)blue{
+    return [UIColor colorWithRed:red/255. green:green/255. blue:blue/255. alpha:1.];
+}
+
++ (UIColor *)ez_UIColorWithRed:(CGFloat)red green:(CGFloat)green blue:(CGFloat)blue alpha:(CGFloat)alpha{
+    return [UIColor colorWithRed:red/255. green:green/255. blue:blue/255. alpha:alpha];
+}
 @end

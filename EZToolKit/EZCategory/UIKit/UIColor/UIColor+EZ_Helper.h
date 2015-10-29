@@ -14,4 +14,8 @@
 
 //ez_UIColorWithRGBHex:0x0298cf
 + (UIColor *)ez_UIColorWithRGBHex:(UInt32)hex;
+
++ (UIColor *)ez_UIColorWithRed:(CGFloat)red green:(CGFloat)green blue:(CGFloat)blue;
+
++ (UIColor *)ez_UIColorWithRed:(CGFloat)red green:(CGFloat)green blue:(CGFloat)blue alpha:(CGFloat)alpha;
 @end
