@@ -24,7 +24,7 @@
 - (UIViewController*)ez_currentViewController;
 
 
-- (UIViewController *)ez_currentViewControllerFromcurrentView;
++ (UIViewController *)ez_currentViewControllerFromcurrentView;
 
 
 - (BOOL)ez_isVisible;

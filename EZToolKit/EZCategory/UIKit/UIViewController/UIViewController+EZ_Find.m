@@ -32,7 +32,7 @@
 }
 
 
-- (UIViewController *)ez_currentViewControllerFromcurrentView{
++ (UIViewController *)ez_currentViewControllerFromcurrentView{
     UIViewController *result = nil;
     // 1. get current window
     UIWindow * window = [[UIApplication sharedApplication] keyWindow];
