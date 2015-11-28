@@ -13,4 +13,6 @@
 - (UIImage *)ez_snapshotImage;
 //>=ios7
 - (UIImage *)ez_snapshotImageAfterScreenUpdates:(BOOL)afterUpdates;
+
+
 @end

@@ -1,15 +1,14 @@
 //
-//  UIViewController+EZ_Helper.m
+//  UIViewController+EZ_Find.m
 //  EZToolKit
 //
-//  Created by yangjun zhu on 15/5/20.
-//  Copyright (c) 2015年 Cactus. All rights reserved.
+//  Created by yangjun zhu on 15/11/28.
+//  Copyright © 2015年 Cactus. All rights reserved.
 //
 
-#import "UIViewController+EZ_Helper.h"
+#import "UIViewController+EZ_Find.h"
 
-@implementation UIViewController (EZ_Helper)
-
+@implementation UIViewController (EZ_Find)
 
 - (UIViewController*) ez_topMostController
 {
@@ -57,20 +56,7 @@
     return result;
 }
 
-- (void)ez_displayController:(UIViewController *)controller frame:(CGRect)frame
-{
-    [self addChildViewController:controller];
-    controller.view.frame = frame;
-    [self.view addSubview:controller.view];
-    [controller didMoveToParentViewController:self];
-}
 
-- (void)ez_hideController:(UIViewController *)controller
-{
-    [controller willMoveToParentViewController:nil];
-    [controller.view removeFromSuperview];
-    [controller removeFromParentViewController];
-}
 
 - (BOOL)ez_isVisible {
     return [self isViewLoaded] && self.view.window;

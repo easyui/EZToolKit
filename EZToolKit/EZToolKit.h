@@ -31,6 +31,7 @@
 #import <EZToolKit/UIDevice+EZ_Helper.h>
 #import <EZToolKit/UIViewController+EZ_Helper.h>
 #import <EZToolKit/UIViewController+EZ_NavigationBar.h>
+#import <EZToolKit/UIViewController+EZ_Find.h>
 #import <EZToolKit/UIColor+EZ_Helper.h>
 #import <EZToolKit/UIImage+EZ_Orientation.h>
 #import <EZToolKit/UIImage+EZ_Helper.h>
@@ -39,6 +40,7 @@
 #import <EZToolKit/UIView+EZ_Helper.h>
 #import <EZToolKit/UIView+EZ_Action.h>
 #import <EZToolKit/UIView+EZ_Rect.h>
+#import <EZToolKit/UIView+EZ_Find.h>
 #import <EZToolKit/UIWindow+EZ_Helper.h>
 //! Project version number for EZToolKit.
 FOUNDATION_EXPORT double EZToolKitVersionNumber;
