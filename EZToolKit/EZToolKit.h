@@ -42,6 +42,13 @@
 #import <EZToolKit/UIView+EZ_Rect.h>
 #import <EZToolKit/UIView+EZ_Find.h>
 #import <EZToolKit/UIWindow+EZ_Helper.h>
+
+
+
+
+#import <EZToolKit/EZAppInfos.h>
+
+
 //! Project version number for EZToolKit.
 FOUNDATION_EXPORT double EZToolKitVersionNumber;
 
