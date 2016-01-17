@@ -588,6 +588,13 @@
 			path = UIWindow;
 			sourceTree = "<group>";
 		};
+		997E3BBD1C4B4312006FE753 /* EZUtils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = EZUtils;
+			sourceTree = "<group>";
+		};
 		99CB0BA21B0C2F1D003B8FCF = {
 			isa = PBXGroup;
 			children = (
@@ -609,6 +616,7 @@
 		99CB0BAE1B0C2F1D003B8FCF /* EZToolKit */ = {
 			isa = PBXGroup;
 			children = (
+				997E3BBD1C4B4312006FE753 /* EZUtils */,
 				99CB0BB11B0C2F1D003B8FCF /* EZToolKit.h */,
 				99CB0BC81B0C3399003B8FCF /* EZCategory */,
 				99CB0BAF1B0C2F1D003B8FCF /* Supporting Files */,
