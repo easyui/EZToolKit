@@ -11,6 +11,15 @@
 #import <CoreTelephony/CTCarrier.h>
 @implementation EZAppInfos
 
++ (instancetype)sharedInfo
+{
+    static EZAppInfos *sharedMyManager = nil;
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        sharedMyManager = [[self alloc] init];
+    });
+    return sharedMyManager;
+}
 
 #pragma overrided - getters
 
