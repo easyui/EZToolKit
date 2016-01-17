@@ -17,6 +17,63 @@
 
 #include <sys/sysctl.h>
 
+
+NSString * const UIDeviceModeliPhone1G                      = @"iPhone 1G";
+NSString * const UIDeviceModeliPhone3G                      = @"iPhone 3G";
+NSString * const UIDeviceModeliPhone3GS                     = @"iPhone 3GS";
+
+NSString * const UIDeviceModeliPhone4                       = @"iPhone 4";
+NSString * const UIDeviceModelVerizoniPhone4                = @"Verizon iPhone 4";
+NSString * const UIDeviceModeliPhone4S                      = @"iPhone 4S";
+
+NSString * const UIDeviceModeliPhone5_GSM                   = @"iPhone 5 (GSM)";
+NSString * const UIDeviceModeliPhone5_GSM_CDMA              = @"iPhone 5 (GSM+CDMA)";
+NSString * const UIDeviceModeliPhone5C_GSM                  = @"iPhone 5C (GSM)";
+NSString * const UIDeviceModeliPhone5C_Global               = @"iPhone 5C (Global)";
+
+NSString * const UIDeviceModeliPhone5S_GSM                  = @"iPhone 5S (GSM)";
+NSString * const UIDeviceModeliPhone5S_Global               = @"iPhone 5S (Global)";
+
+NSString * const UIDeviceModeliPhone6                       = @"iPhone 6";
+NSString * const UIDeviceModeliPhone6Plus                   = @"iPhone 6 Plus";
+
+NSString * const UIDeviceModeliPodTouch1G                   = @"iPod Touch 1G";
+NSString * const UIDeviceModeliPodTouch2G                   = @"iPod Touch 2G";
+NSString * const UIDeviceModeliPodTouch3G                   = @"iPod Touch 3G";
+NSString * const UIDeviceModeliPodTouch4G                   = @"iPod Touch 4G";
+NSString * const UIDeviceModeliPodTouch5G                   = @"iPod Touch 5G";
+
+NSString * const UIDeviceModeliPad                          = @"iPad";
+NSString * const UIDeviceModeliPad2_Wifi                    = @"iPad 2 (WiFi)";
+NSString * const UIDeviceModeliPad2_GSM                     = @"iPad 2 (GSM)";
+NSString * const UIDeviceModeliPad2_CDMA                    = @"iPad 2 (CDMA)";
+NSString * const UIDeviceModeliPad2                         = @"iPad 2";
+NSString * const UIDeviceModeliPad3G_Wifi                   = @"iPad-3G (WiFi)";
+NSString * const UIDeviceModeliPad3G_4G                     = @"iPad-3G (4G)";
+NSString * const UIDeviceModeliPad4G_Wifi                   = @"iPad-4G (WiFi)";
+NSString * const UIDeviceModeliPad4G_GSM                    = @"iPad-4G (GSM)";
+NSString * const UIDeviceModeliPad4G_GSM_CDMA               = @"iPad-4G (GSM+CDMA)";
+
+NSString * const UIDeviceModeliPadMini1G_Wifi               = @"iPad mini-1G (WiFi)";
+NSString * const UIDeviceModeliPadMini1G_GSM                = @"iPad mini-1G (GSM)";
+NSString * const UIDeviceModeliPadMini1G_GSM_CDMA           = @"iPad mini-1G (GSM+CDMA)";
+NSString * const UIDeviceModeliPadMiniRetina2G_Wifi         = @"iPad mini 2G Retina (WiFi)";
+NSString * const UIDeviceModeliPadMiniRetina2G_Cellular     = @"iPad mini 2G Retina (Cellular)";
+NSString * const UIDeviceModeliPadAir_Wifi                  = @"iPad Air (WiFi)";
+NSString * const UIDeviceModeliPadAir_Cellular              = @"iPad Air (Cellular)";
+NSString * const UIDeviceModeliPadAir_4GCellular            = @"iPad Air (4G)";
+NSString * const UIDeviceModeliPadMiniRetina4G_Cellular     = @"iPad mini (4G)";
+
+NSString * const UIDeviceModeliPadAir2_Wifi                 = @"iPad Air 2 (WiFi)";
+NSString * const UIDeviceModeliPadAir2_Cellular             = @"iPad Air 2 (Cellular)";
+NSString * const UIDeviceModeliPadMiniRetina3_Wifi          = @"iPad mini 3 Retina (Wifi)";
+NSString * const UIDeviceModeliPadMiniRetina3_Cellular      = @"iPad mini 3 Retina (Cellular)";
+
+NSString * const UIDeviceModelSimulatorI386                 = @"iPhone Simulator (i386)";
+NSString * const UIDeviceModelSimulatorX86_64               = @"iPhone Simulator (x86_64)";
+NSString * const UIDeviceModelSimulator                     = @"iPhone Simulator";
+
+
 @implementation UIDevice (EZ_Helper)
 - (NSString *)ez_networkStatus{
     struct sockaddr_in zeroAddress;
