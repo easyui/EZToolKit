@@ -23,6 +23,12 @@
 /* Begin PBXBuildFile section */
 		990A00E11BD4F6B9003D0B9C /* UIViewController+EZ_NavigationBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 990A00DF1BD4F6B9003D0B9C /* UIViewController+EZ_NavigationBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		990A00E21BD4F6B9003D0B9C /* UIViewController+EZ_NavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 990A00E01BD4F6B9003D0B9C /* UIViewController+EZ_NavigationBar.m */; };
+		991592E91C75E806004D0D9E /* UIScrollView+EZ_Navigationbar.h in Headers */ = {isa = PBXBuildFile; fileRef = 991592E71C75E806004D0D9E /* UIScrollView+EZ_Navigationbar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		991592EA1C75E806004D0D9E /* UIScrollView+EZ_Navigationbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 991592E81C75E806004D0D9E /* UIScrollView+EZ_Navigationbar.m */; };
+		991592ED1C75F113004D0D9E /* UIScrollView+EZ_HeaderView.h in Headers */ = {isa = PBXBuildFile; fileRef = 991592EB1C75F113004D0D9E /* UIScrollView+EZ_HeaderView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		991592EE1C75F113004D0D9E /* UIScrollView+EZ_HeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 991592EC1C75F113004D0D9E /* UIScrollView+EZ_HeaderView.m */; };
+		991592F31C76A9F7004D0D9E /* UINavigationBar+EZ_Animation.h in Headers */ = {isa = PBXBuildFile; fileRef = 991592F11C76A9F7004D0D9E /* UINavigationBar+EZ_Animation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		991592F41C76A9F7004D0D9E /* UINavigationBar+EZ_Animation.m in Sources */ = {isa = PBXBuildFile; fileRef = 991592F21C76A9F7004D0D9E /* UINavigationBar+EZ_Animation.m */; };
 		9922BEBF1B271E27007E6F2A /* NSData+EZ_Parse.h in Headers */ = {isa = PBXBuildFile; fileRef = 9922BE731B271E27007E6F2A /* NSData+EZ_Parse.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9922BEC01B271E27007E6F2A /* NSData+EZ_Parse.m in Sources */ = {isa = PBXBuildFile; fileRef = 9922BE741B271E27007E6F2A /* NSData+EZ_Parse.m */; };
 		9922BEC11B271E27007E6F2A /* NSDate+EZ_Format.h in Headers */ = {isa = PBXBuildFile; fileRef = 9922BE761B271E27007E6F2A /* NSDate+EZ_Format.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -69,6 +75,10 @@
 		992ADF9D1C08518C004A55CC /* UIView+EZ_Find.m in Sources */ = {isa = PBXBuildFile; fileRef = 992ADF9B1C08518C004A55CC /* UIView+EZ_Find.m */; };
 		992ADFA11C09DD90004A55CC /* UIViewController+EZ_Find.h in Headers */ = {isa = PBXBuildFile; fileRef = 992ADF9F1C09DD90004A55CC /* UIViewController+EZ_Find.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		992ADFA21C09DD90004A55CC /* UIViewController+EZ_Find.m in Sources */ = {isa = PBXBuildFile; fileRef = 992ADFA01C09DD90004A55CC /* UIViewController+EZ_Find.m */; };
+		993761011C84AD8800EF8DC1 /* UIApplication+EZ_Helper.h in Headers */ = {isa = PBXBuildFile; fileRef = 993760FF1C84AD8800EF8DC1 /* UIApplication+EZ_Helper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		993761021C84AD8800EF8DC1 /* UIApplication+EZ_Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 993761001C84AD8800EF8DC1 /* UIApplication+EZ_Helper.m */; };
+		993761051C84AFCA00EF8DC1 /* UIApplication+Permissions.h in Headers */ = {isa = PBXBuildFile; fileRef = 993761031C84AFCA00EF8DC1 /* UIApplication+Permissions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		993761061C84AFCA00EF8DC1 /* UIApplication+Permissions.m in Sources */ = {isa = PBXBuildFile; fileRef = 993761041C84AFCA00EF8DC1 /* UIApplication+Permissions.m */; };
 		99563B811B4B68D300918045 /* NSString+EZ_Rect.h in Headers */ = {isa = PBXBuildFile; fileRef = 99563B7F1B4B68D300918045 /* NSString+EZ_Rect.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		99563B821B4B68D300918045 /* NSString+EZ_Rect.m in Sources */ = {isa = PBXBuildFile; fileRef = 99563B801B4B68D300918045 /* NSString+EZ_Rect.m */; };
 		997E3BC01C4B43C7006FE753 /* EZAppInfos.h in Headers */ = {isa = PBXBuildFile; fileRef = 997E3BBE1C4B43C7006FE753 /* EZAppInfos.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -99,6 +109,12 @@
 /* Begin PBXFileReference section */
 		990A00DF1BD4F6B9003D0B9C /* UIViewController+EZ_NavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+EZ_NavigationBar.h"; sourceTree = "<group>"; };
 		990A00E01BD4F6B9003D0B9C /* UIViewController+EZ_NavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+EZ_NavigationBar.m"; sourceTree = "<group>"; };
+		991592E71C75E806004D0D9E /* UIScrollView+EZ_Navigationbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+EZ_Navigationbar.h"; sourceTree = "<group>"; };
+		991592E81C75E806004D0D9E /* UIScrollView+EZ_Navigationbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+EZ_Navigationbar.m"; sourceTree = "<group>"; };
+		991592EB1C75F113004D0D9E /* UIScrollView+EZ_HeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+EZ_HeaderView.h"; sourceTree = "<group>"; };
+		991592EC1C75F113004D0D9E /* UIScrollView+EZ_HeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+EZ_HeaderView.m"; sourceTree = "<group>"; };
+		991592F11C76A9F7004D0D9E /* UINavigationBar+EZ_Animation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+EZ_Animation.h"; sourceTree = "<group>"; };
+		991592F21C76A9F7004D0D9E /* UINavigationBar+EZ_Animation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+EZ_Animation.m"; sourceTree = "<group>"; };
 		9922BE731B271E27007E6F2A /* NSData+EZ_Parse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+EZ_Parse.h"; sourceTree = "<group>"; };
 		9922BE741B271E27007E6F2A /* NSData+EZ_Parse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+EZ_Parse.m"; sourceTree = "<group>"; };
 		9922BE761B271E27007E6F2A /* NSDate+EZ_Format.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+EZ_Format.h"; sourceTree = "<group>"; };
@@ -145,6 +161,10 @@
 		992ADF9B1C08518C004A55CC /* UIView+EZ_Find.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+EZ_Find.m"; sourceTree = "<group>"; };
 		992ADF9F1C09DD90004A55CC /* UIViewController+EZ_Find.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+EZ_Find.h"; sourceTree = "<group>"; };
 		992ADFA01C09DD90004A55CC /* UIViewController+EZ_Find.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+EZ_Find.m"; sourceTree = "<group>"; };
+		993760FF1C84AD8800EF8DC1 /* UIApplication+EZ_Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+EZ_Helper.h"; sourceTree = "<group>"; };
+		993761001C84AD8800EF8DC1 /* UIApplication+EZ_Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+EZ_Helper.m"; sourceTree = "<group>"; };
+		993761031C84AFCA00EF8DC1 /* UIApplication+Permissions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+Permissions.h"; sourceTree = "<group>"; };
+		993761041C84AFCA00EF8DC1 /* UIApplication+Permissions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+Permissions.m"; sourceTree = "<group>"; };
 		99563B7F1B4B68D300918045 /* NSString+EZ_Rect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+EZ_Rect.h"; sourceTree = "<group>"; };
 		99563B801B4B68D300918045 /* NSString+EZ_Rect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+EZ_Rect.m"; sourceTree = "<group>"; };
 		997E3BBE1C4B43C7006FE753 /* EZAppInfos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZAppInfos.h; sourceTree = "<group>"; };
@@ -385,6 +405,10 @@
 		9922BE931B271E27007E6F2A /* UIApplication */ = {
 			isa = PBXGroup;
 			children = (
+				993760FF1C84AD8800EF8DC1 /* UIApplication+EZ_Helper.h */,
+				993761001C84AD8800EF8DC1 /* UIApplication+EZ_Helper.m */,
+				993761031C84AFCA00EF8DC1 /* UIApplication+Permissions.h */,
+				993761041C84AFCA00EF8DC1 /* UIApplication+Permissions.m */,
 			);
 			path = UIApplication;
 			sourceTree = "<group>";
@@ -465,6 +489,8 @@
 		9922BEA71B271E27007E6F2A /* UINavigationBar */ = {
 			isa = PBXGroup;
 			children = (
+				991592F11C76A9F7004D0D9E /* UINavigationBar+EZ_Animation.h */,
+				991592F21C76A9F7004D0D9E /* UINavigationBar+EZ_Animation.m */,
 			);
 			path = UINavigationBar;
 			sourceTree = "<group>";
@@ -502,6 +528,10 @@
 		9922BEAC1B271E27007E6F2A /* UIScrollView */ = {
 			isa = PBXGroup;
 			children = (
+				991592E71C75E806004D0D9E /* UIScrollView+EZ_Navigationbar.h */,
+				991592E81C75E806004D0D9E /* UIScrollView+EZ_Navigationbar.m */,
+				991592EB1C75F113004D0D9E /* UIScrollView+EZ_HeaderView.h */,
+				991592EC1C75F113004D0D9E /* UIScrollView+EZ_HeaderView.m */,
 			);
 			path = UIScrollView;
 			sourceTree = "<group>";
@@ -674,6 +704,7 @@
 				9922BED51B271E27007E6F2A /* UIImage+EZ_Helper.h in Headers */,
 				997E3BC01C4B43C7006FE753 /* EZAppInfos.h in Headers */,
 				992ADFA11C09DD90004A55CC /* UIViewController+EZ_Find.h in Headers */,
+				991592ED1C75F113004D0D9E /* UIScrollView+EZ_HeaderView.h in Headers */,
 				9922BEDD1B271E27007E6F2A /* UIView+EZ_Helper.h in Headers */,
 				9922BECD1B271E27007E6F2A /* NSString+EZ_Parse.h in Headers */,
 				9922BED71B271E27007E6F2A /* UIImage+EZ_Orientation.h in Headers */,
@@ -682,9 +713,13 @@
 				99ED5E9F1B274BDF0095CA48 /* NSObject+EZ_Helper.h in Headers */,
 				9922BEC11B271E27007E6F2A /* NSDate+EZ_Format.h in Headers */,
 				9922BECB1B271E27007E6F2A /* NSString+EZ_Helper.h in Headers */,
+				991592E91C75E806004D0D9E /* UIScrollView+EZ_Navigationbar.h in Headers */,
 				9922BEDF1B271E27007E6F2A /* UIView+EZ_Rect.h in Headers */,
 				99ED5E9B1B274B160095CA48 /* UIWindow+EZ_helper.h in Headers */,
+				993761011C84AD8800EF8DC1 /* UIApplication+EZ_Helper.h in Headers */,
 				9922BEE11B271E27007E6F2A /* UIViewController+EZ_Helper.h in Headers */,
+				991592F31C76A9F7004D0D9E /* UINavigationBar+EZ_Animation.h in Headers */,
+				993761051C84AFCA00EF8DC1 /* UIApplication+Permissions.h in Headers */,
 				9922BEC71B271E27007E6F2A /* NSObject+EZ_Parse.h in Headers */,
 				9922BEDB1B271E27007E6F2A /* UIView+EZ_Action.h in Headers */,
 				99D43DBB1BA6C84D00B78BCA /* NSObject+EZ_KVO.h in Headers */,
@@ -829,13 +864,16 @@
 				99ED5EA01B274BDF0095CA48 /* NSObject+EZ_Helper.m in Sources */,
 				997E3BC11C4B43C7006FE753 /* EZAppInfos.m in Sources */,
 				9922BEE61B272026007E6F2A /* NSURL+EZ_Helper.m in Sources */,
+				991592F41C76A9F7004D0D9E /* UINavigationBar+EZ_Animation.m in Sources */,
 				9922BED21B271E27007E6F2A /* UIColor+EZ_Helper.m in Sources */,
 				9922BECE1B271E27007E6F2A /* NSString+EZ_Parse.m in Sources */,
 				9922BEC41B271E27007E6F2A /* NSNull+EZ_System.m in Sources */,
 				99563B821B4B68D300918045 /* NSString+EZ_Rect.m in Sources */,
+				991592EE1C75F113004D0D9E /* UIScrollView+EZ_HeaderView.m in Sources */,
 				992752CF1B8ECAE700C77CA0 /* UIScreen+EZ_Rect.m in Sources */,
 				9922BEE21B271E27007E6F2A /* UIViewController+EZ_Helper.m in Sources */,
 				9922BED01B271E27007E6F2A /* NSTimer+EZ_Helper.m in Sources */,
+				991592EA1C75E806004D0D9E /* UIScrollView+EZ_Navigationbar.m in Sources */,
 				992ADF9D1C08518C004A55CC /* UIView+EZ_Find.m in Sources */,
 				9922BEC21B271E27007E6F2A /* NSDate+EZ_Format.m in Sources */,
 				9922BEDC1B271E27007E6F2A /* UIView+EZ_Action.m in Sources */,
@@ -843,12 +881,14 @@
 				9922BECC1B271E27007E6F2A /* NSString+EZ_Helper.m in Sources */,
 				9922BED81B271E27007E6F2A /* UIImage+EZ_Orientation.m in Sources */,
 				992ADFA21C09DD90004A55CC /* UIViewController+EZ_Find.m in Sources */,
+				993761021C84AD8800EF8DC1 /* UIApplication+EZ_Helper.m in Sources */,
 				9922BEEA1B272263007E6F2A /* NSBundle+EZ_AppIcon.m in Sources */,
 				99ED5E9C1B274B160095CA48 /* UIWindow+EZ_helper.m in Sources */,
 				9922BEC61B271E27007E6F2A /* NSObject+EZ_Association.m in Sources */,
 				9922BEDA1B271E27007E6F2A /* UILabel+EZ_Rect.m in Sources */,
 				9922BEC01B271E27007E6F2A /* NSData+EZ_Parse.m in Sources */,
 				9922BED41B271E27007E6F2A /* UIDevice+EZ_Helper.m in Sources */,
+				993761061C84AFCA00EF8DC1 /* UIApplication+Permissions.m in Sources */,
 				9922BEDE1B271E27007E6F2A /* UIView+EZ_Helper.m in Sources */,
 				BD3F87B31BCE3B5000BEA087 /* NSObject+EZ_AutoCoding.m in Sources */,
 			);

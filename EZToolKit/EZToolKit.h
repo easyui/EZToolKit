@@ -42,6 +42,20 @@
 #import <EZToolKit/UIView+EZ_Rect.h>
 #import <EZToolKit/UIView+EZ_Find.h>
 #import <EZToolKit/UIWindow+EZ_Helper.h>
+#import <EZToolKit/UIScrollView+EZ_HeaderView.h>
+
+#import <EZToolKit/UIApplication+EZ_Helper.h>
+#import <EZToolKit/UIApplication+Permissions.h>
+
+
+
+#import <EZToolKit/UINavigationBar+EZ_Animation.h>
+#import <EZToolKit/UIScrollView+EZ_Navigationbar.h>
+
+
+
+
+
 
 
 
