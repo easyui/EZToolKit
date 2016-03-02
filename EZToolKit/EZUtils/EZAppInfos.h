@@ -18,6 +18,7 @@
 @property (strong, readonly, nonatomic) NSString *appVersion;
 @property (strong, readonly, nonatomic) NSString *buildRevision;
 @property (strong, readonly, nonatomic) NSString *carrierName;
+@property (strong, readonly, nonatomic) NSString *identifier;
 @property (strong, readonly, nonatomic) NSString *deviceModelName;
 @property (assign, readonly, nonatomic) UIDeviceModelType deviceModelType;
 @property (assign, readonly, nonatomic) NSInteger batteryLevel; //in pourcent

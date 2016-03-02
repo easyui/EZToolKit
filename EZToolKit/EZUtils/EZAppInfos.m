@@ -51,6 +51,12 @@
     return [carrier carrierName];
 }
 
+- (NSString *)identifier{
+    NSDictionary *infoDictionary = [[NSBundle mainBundle] infoDictionary];
+    NSString * bundleIdentifier = [infoDictionary objectForKey:@"CFBundleIdentifier"];
+    return bundleIdentifier;
+}
+
 - (NSString *)deviceModelName
 {
     return [UIDevice ez_modelName];
