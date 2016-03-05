@@ -27,6 +27,8 @@
 #import <EZToolKit/NSDate+EZ_Format.h>
 #import <EZToolKit/NSTimer+EZ_Helper.h>
 #import <EZToolKit/NSURL+EZ_Helper.h>
+#import <EZToolKit/NSNotificationCenter+EZ_MainThread.h>
+
 
 #import <EZToolKit/UIDevice+EZ_Helper.h>
 #import <EZToolKit/UIViewController+EZ_Helper.h>
@@ -43,6 +45,9 @@
 #import <EZToolKit/UIView+EZ_Find.h>
 #import <EZToolKit/UIWindow+EZ_Helper.h>
 #import <EZToolKit/UIScrollView+EZ_HeaderView.h>
+#import <EZToolKit/UINavigationController+EZ_KeyboardDismiss.h>
+
+
 
 #import <EZToolKit/UIApplication+EZ_Helper.h>
 #import <EZToolKit/UIApplication+Permissions.h>
