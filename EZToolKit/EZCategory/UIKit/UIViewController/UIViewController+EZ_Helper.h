@@ -32,4 +32,8 @@
 
 - (BOOL)ez_isVisible;
 
+- (CGFloat)ez_statusBarHeight;
+- (CGFloat)ez_navigationBarHeight;
+
+
 @end

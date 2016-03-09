@@ -75,4 +75,12 @@
 - (BOOL)ez_isVisible {
     return [self isViewLoaded] && self.view.window;
 }
+
+- (CGFloat)ez_statusBarHeight{
+   return  [self.view.window convertRect:[UIApplication sharedApplication].statusBarFrame toView:self.view].size.height;
+}
+
+- (CGFloat)ez_navigationBarHeight{
+   return  self.navigationController.navigationBar.frame.size.height;
+}
 @end
