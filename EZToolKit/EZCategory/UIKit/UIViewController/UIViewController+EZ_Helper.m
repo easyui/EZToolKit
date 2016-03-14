@@ -11,51 +11,6 @@
 @implementation UIViewController (EZ_Helper)
 
 
-- (UIViewController*) ez_topMostController
-{
-    UIViewController *topController = self ;
-    
-    //  Getting topMost ViewController
-    while ([self presentedViewController])	topController = [topController presentedViewController];
-    
-    //  Returning topMost ViewController
-    return topController;
-}
-
-- (UIViewController*)ez_currentViewController;
-{
-    UIViewController *currentViewController = [self ez_topMostController];
-    
-    while ([currentViewController isKindOfClass:[UINavigationController class]] && [(UINavigationController*)currentViewController topViewController])
-    currentViewController = [(UINavigationController*)currentViewController topViewController];
-    
-    return currentViewController;
-}
-
-
-- (UIViewController *)ez_currentViewControllerFromcurrentView{
-    UIViewController *result = nil;
-    // 1. get current window
-    UIWindow * window = [[UIApplication sharedApplication] keyWindow];
-    if (window.windowLevel != UIWindowLevelNormal) {
-        NSArray *windows = [[UIApplication sharedApplication] windows];
-        for(UIWindow * tmpWin in windows) {
-            if (tmpWin.windowLevel == UIWindowLevelNormal) {
-                window = tmpWin;
-                break;
-            }
-        }
-    }
-    // 2. get current View Controller
-    UIView *frontView = [[window subviews] objectAtIndex:0];
-    id nextResponder = [frontView nextResponder];
-    if ([nextResponder isKindOfClass:[UIViewController class]]) {
-        result = nextResponder;
-    } else {
-        result = window.rootViewController;
-    }
-    return result;
-}
 
 - (void)ez_displayController:(UIViewController *)controller frame:(CGRect)frame
 {
@@ -72,9 +27,6 @@
     [controller removeFromParentViewController];
 }
 
-- (BOOL)ez_isVisible {
-    return [self isViewLoaded] && self.view.window;
-}
 
 - (CGFloat)ez_statusBarHeight{
    return  [self.view.window convertRect:[UIApplication sharedApplication].statusBarFrame toView:self.view].size.height;
