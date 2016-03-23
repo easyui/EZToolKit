@@ -11,6 +11,7 @@
 
 #import <UIKit/UIKit.h>
 
+#import <EZToolKit/NSBundle+EZ_Helper.h>
 #import <EZToolKit/NSBundle+EZ_AppIcon.h>
 #import <EZToolKit/NSObject+EZ_Helper.h>
 #import <EZToolKit/NSObject+EZ_Parse.h>
