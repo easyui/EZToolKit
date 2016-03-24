@@ -94,6 +94,8 @@
 		99D43DBC1BA6C84D00B78BCA /* NSObject+EZ_KVO.m in Sources */ = {isa = PBXBuildFile; fileRef = 99D43DBA1BA6C84D00B78BCA /* NSObject+EZ_KVO.m */; };
 		99DAC76C1CA23E98008EAAAE /* NSBundle+EZ_Helper.h in Headers */ = {isa = PBXBuildFile; fileRef = 99DAC76A1CA23E98008EAAAE /* NSBundle+EZ_Helper.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		99DAC76D1CA23E98008EAAAE /* NSBundle+EZ_Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 99DAC76B1CA23E98008EAAAE /* NSBundle+EZ_Helper.m */; };
+		99ECF1B51CA4341800817A7D /* EZFrameworkObserver.h in Headers */ = {isa = PBXBuildFile; fileRef = 99ECF1B31CA4341800817A7D /* EZFrameworkObserver.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		99ECF1B61CA4341800817A7D /* EZFrameworkObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 99ECF1B41CA4341800817A7D /* EZFrameworkObserver.m */; };
 		99ED5E9B1B274B160095CA48 /* UIWindow+EZ_helper.h in Headers */ = {isa = PBXBuildFile; fileRef = 99ED5E991B274B160095CA48 /* UIWindow+EZ_helper.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		99ED5E9C1B274B160095CA48 /* UIWindow+EZ_helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 99ED5E9A1B274B160095CA48 /* UIWindow+EZ_helper.m */; };
 		99ED5E9F1B274BDF0095CA48 /* NSObject+EZ_Helper.h in Headers */ = {isa = PBXBuildFile; fileRef = 99ED5E9D1B274BDF0095CA48 /* NSObject+EZ_Helper.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -189,6 +191,8 @@
 		99D43DBA1BA6C84D00B78BCA /* NSObject+EZ_KVO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+EZ_KVO.m"; sourceTree = "<group>"; };
 		99DAC76A1CA23E98008EAAAE /* NSBundle+EZ_Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+EZ_Helper.h"; sourceTree = "<group>"; };
 		99DAC76B1CA23E98008EAAAE /* NSBundle+EZ_Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+EZ_Helper.m"; sourceTree = "<group>"; };
+		99ECF1B31CA4341800817A7D /* EZFrameworkObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZFrameworkObserver.h; sourceTree = "<group>"; };
+		99ECF1B41CA4341800817A7D /* EZFrameworkObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZFrameworkObserver.m; sourceTree = "<group>"; };
 		99ED5E991B274B160095CA48 /* UIWindow+EZ_helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWindow+EZ_helper.h"; sourceTree = "<group>"; };
 		99ED5E9A1B274B160095CA48 /* UIWindow+EZ_helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+EZ_helper.m"; sourceTree = "<group>"; };
 		99ED5E9D1B274BDF0095CA48 /* NSObject+EZ_Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+EZ_Helper.h"; sourceTree = "<group>"; };
@@ -653,6 +657,8 @@
 			children = (
 				997E3BBE1C4B43C7006FE753 /* EZAppInfos.h */,
 				997E3BBF1C4B43C7006FE753 /* EZAppInfos.m */,
+				99ECF1B31CA4341800817A7D /* EZFrameworkObserver.h */,
+				99ECF1B41CA4341800817A7D /* EZFrameworkObserver.m */,
 			);
 			path = EZUtils;
 			sourceTree = "<group>";
@@ -759,6 +765,7 @@
 				9922BED11B271E27007E6F2A /* UIColor+EZ_Helper.h in Headers */,
 				BD3F87B21BCE3B5000BEA087 /* NSObject+EZ_AutoCoding.h in Headers */,
 				99DAC76C1CA23E98008EAAAE /* NSBundle+EZ_Helper.h in Headers */,
+				99ECF1B51CA4341800817A7D /* EZFrameworkObserver.h in Headers */,
 				990A00E11BD4F6B9003D0B9C /* UIViewController+EZ_NavigationBar.h in Headers */,
 				9922BED31B271E27007E6F2A /* UIDevice+EZ_Helper.h in Headers */,
 				992752CE1B8ECAE700C77CA0 /* UIScreen+EZ_Rect.h in Headers */,
@@ -923,6 +930,7 @@
 				993761061C84AFCA00EF8DC1 /* UIApplication+Permissions.m in Sources */,
 				9922BEDE1B271E27007E6F2A /* UIView+EZ_Helper.m in Sources */,
 				BD3F87B31BCE3B5000BEA087 /* NSObject+EZ_AutoCoding.m in Sources */,
+				99ECF1B61CA4341800817A7D /* EZFrameworkObserver.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

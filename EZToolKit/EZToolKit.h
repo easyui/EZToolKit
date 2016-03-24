@@ -67,7 +67,7 @@
 
 
 #import <EZToolKit/EZAppInfos.h>
-
+#import <EZToolKit/EZFrameworkObserver.h>
 
 //! Project version number for EZToolKit.
 FOUNDATION_EXPORT double EZToolKitVersionNumber;
