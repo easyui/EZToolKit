@@ -24,9 +24,13 @@
         //        return self.fr
         //        #endif
     } else {
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored"-Wdeprecated-declarations"
         CGSize size = [self.text sizeWithFont:self.font
                          constrainedToSize   :CGSizeMake(self.frame.size.width, MAXFLOAT)
                          lineBreakMode       :NSLineBreakByWordWrapping];
+#pragma clang diagnostic pop
+
         return size.height;
     }
 }
@@ -41,10 +45,13 @@
         CGRect textRect = [self.text boundingRectWithSize:CGSizeMake(MAXFLOAT, self.frame.size.height) options:(NSStringDrawingUsesLineFragmentOrigin | NSStringDrawingUsesFontLeading) attributes:@{NSFontAttributeName:self.font} context:nil];
         return textRect.size.width;
     } else {
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored"-Wdeprecated-declarations"
         CGSize size = [self.text sizeWithFont:self.font
                          constrainedToSize   :CGSizeMake(MAXFLOAT, self.frame.size.height)
                          lineBreakMode       :NSLineBreakByWordWrapping];
-        
+#pragma clang diagnostic pop
+
         return size.width;
     }
 }
