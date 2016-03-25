@@ -14,6 +14,7 @@
 				99CB0C161B0C51A1003B8FCF /* ShellScript */,
 			);
 			dependencies = (
+				99D7D1501CA53A5800984775 /* PBXTargetDependency */,
 			);
 			name = Framework;
 			productName = Framework;
@@ -106,6 +107,13 @@
 
 /* Begin PBXContainerItemProxy section */
 		99CB0BB91B0C2F1D003B8FCF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 99CB0BA31B0C2F1D003B8FCF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99CB0BAB1B0C2F1D003B8FCF;
+			remoteInfo = EZToolKit;
+		};
+		99D7D14F1CA53A5800984775 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 99CB0BA31B0C2F1D003B8FCF /* Project object */;
 			proxyType = 1;
@@ -883,7 +891,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "set -e\n\nFMK_TARGET_NAME=${PROJECT_NAME}\nFMK_NAME=${PROJECT_NAME}\nUNIVERSAL_OUTPUTFOLDER=${SRCROOT}/Products\n\n\nrm -rf \"${UNIVERSAL_OUTPUTFOLDER}\"\nmkdir -p \"${UNIVERSAL_OUTPUTFOLDER}\"\n\n# Step 1. Build Device and Simulator versions\nxcodebuild -target \"${FMK_TARGET_NAME}\" ONLY_ACTIVE_ARCH=NO -configuration ${CONFIGURATION} -sdk iphoneos  clean build\nxcodebuild -target \"${FMK_TARGET_NAME}\" -configuration ${CONFIGURATION} -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO  clean build\n\n# Step 2. Copy the framework structure (from iphoneos build) to the universal folder\ncp -R \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/${FMK_NAME}.framework\" \"${UNIVERSAL_OUTPUTFOLDER}/\"\n\n# Step 3. Copy Swift modules (from iphonesimulator build) to the copied framework directory\n#cp -R \"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/${FMK_NAME}.framework/Modules/Framework.swiftmodule/.\" \"${UNIVERSAL_OUTPUTFOLDER}/${FMK_NAME}.framework/Modules/Framework.swiftmodule\"\n\n# Step 4. Create universal binary file using lipo and place the combined executable in the copied framework directory\n\n\nlipo -create -output \"${UNIVERSAL_OUTPUTFOLDER}/${FMK_NAME}.framework/${FMK_NAME}\" \"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/${FMK_NAME}.framework/${FMK_NAME}\" \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/${FMK_NAME}.framework/${FMK_NAME}\"\n# Step 5. Convenience step to open the project's directory in Finder\nrm -r \"build\"\nopen \"${UNIVERSAL_OUTPUTFOLDER}\"";
+			shellScript = "set -e\n\n# Sets the target folders and the final framework product.\nFMK_TARGET_NAME=${PROJECT_NAME}\nFMK_NAME=${PROJECT_NAME}\n\nWRK_DIR=build\nDEVICE_DIR=${WRK_DIR}/Release-iphoneos/${FMK_NAME}.framework\nSIMULATOR_DIR=${WRK_DIR}/Release-iphonesimulator/${FMK_NAME}.framework\nUNIVERSAL_OUTPUTFOLDER=${SRCROOT}/Products\n\n# Cleaning the oldest.\nif [ -d \"${UNIVERSAL_OUTPUTFOLDER}\" ]\nthen\nrm -rf \"${UNIVERSAL_OUTPUTFOLDER}\"\nfi\n\nmkdir -p \"${UNIVERSAL_OUTPUTFOLDER}\"\n\n# Build Device and Simulator versions\nxcodebuild -target \"${FMK_TARGET_NAME}\" ONLY_ACTIVE_ARCH=NO -configuration \"Release\" -sdk iphoneos  clean build\nxcodebuild -target \"${FMK_TARGET_NAME}\" -configuration \"Release\" -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO  clean build\n\n#  Copy the framework structure (from iphoneos build) to the universal folder\ncp -R \"${DEVICE_DIR}\" \"${UNIVERSAL_OUTPUTFOLDER}/\"\n\n# Uses the Lipo Tool to merge both binary files (i386 + armv6/armv7) into one Universal final product.\nlipo -create \"${DEVICE_DIR}/${FMK_NAME}\" \"${SIMULATOR_DIR}/${FMK_NAME}\" -output \"${UNIVERSAL_OUTPUTFOLDER}/${FMK_NAME}.framework/${FMK_NAME}\"\n\n#  Convenience step to open the project's directory in Finder\nrm -r \"${WRK_DIR}\"\n\nopen \"${UNIVERSAL_OUTPUTFOLDER}\"";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -949,6 +957,11 @@
 			isa = PBXTargetDependency;
 			target = 99CB0BAB1B0C2F1D003B8FCF /* EZToolKit */;
 			targetProxy = 99CB0BB91B0C2F1D003B8FCF /* PBXContainerItemProxy */;
+		};
+		99D7D1501CA53A5800984775 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 99CB0BAB1B0C2F1D003B8FCF /* EZToolKit */;
+			targetProxy = 99D7D14F1CA53A5800984775 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
