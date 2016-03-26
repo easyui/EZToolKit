@@ -40,4 +40,10 @@
     return YES;
 }
 
+
+- (NSString *)ez_stringByTrim{
+    NSCharacterSet *set = [NSCharacterSet whitespaceAndNewlineCharacterSet];
+    return [self stringByTrimmingCharactersInSet:set];
+}
+
 @end
