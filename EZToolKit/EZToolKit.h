@@ -24,6 +24,7 @@
 #import <EZToolKit/NSString+EZ_Parse.h>
 #import <EZToolKit/NSString+EZ_Format.h>
 #import <EZToolKit/NSString+EZ_Rect.h>
+#import <EZToolKit/NSString+EZ_CompareToVersion.h>
 #import <EZToolKit/NSData+EZ_Parse.h>
 #import <EZToolKit/NSDate+EZ_Format.h>
 #import <EZToolKit/NSTimer+EZ_Helper.h>

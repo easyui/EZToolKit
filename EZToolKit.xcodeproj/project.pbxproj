@@ -72,6 +72,8 @@
 		9922BEEA1B272263007E6F2A /* NSBundle+EZ_AppIcon.m in Sources */ = {isa = PBXBuildFile; fileRef = 9922BEE81B272263007E6F2A /* NSBundle+EZ_AppIcon.m */; };
 		992752CE1B8ECAE700C77CA0 /* UIScreen+EZ_Rect.h in Headers */ = {isa = PBXBuildFile; fileRef = 992752CC1B8ECAE700C77CA0 /* UIScreen+EZ_Rect.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		992752CF1B8ECAE700C77CA0 /* UIScreen+EZ_Rect.m in Sources */ = {isa = PBXBuildFile; fileRef = 992752CD1B8ECAE700C77CA0 /* UIScreen+EZ_Rect.m */; };
+		9927F5081CBC0223003E0DAC /* NSString+EZ_CompareToVersion.h in Headers */ = {isa = PBXBuildFile; fileRef = 9927F5061CBC0223003E0DAC /* NSString+EZ_CompareToVersion.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9927F5091CBC0223003E0DAC /* NSString+EZ_CompareToVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = 9927F5071CBC0223003E0DAC /* NSString+EZ_CompareToVersion.m */; };
 		992ADF9C1C08518C004A55CC /* UIView+EZ_Find.h in Headers */ = {isa = PBXBuildFile; fileRef = 992ADF9A1C08518C004A55CC /* UIView+EZ_Find.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		992ADF9D1C08518C004A55CC /* UIView+EZ_Find.m in Sources */ = {isa = PBXBuildFile; fileRef = 992ADF9B1C08518C004A55CC /* UIView+EZ_Find.m */; };
 		992ADFA11C09DD90004A55CC /* UIViewController+EZ_Find.h in Headers */ = {isa = PBXBuildFile; fileRef = 992ADF9F1C09DD90004A55CC /* UIViewController+EZ_Find.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -173,6 +175,8 @@
 		9922BEE81B272263007E6F2A /* NSBundle+EZ_AppIcon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+EZ_AppIcon.m"; sourceTree = "<group>"; };
 		992752CC1B8ECAE700C77CA0 /* UIScreen+EZ_Rect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScreen+EZ_Rect.h"; sourceTree = "<group>"; };
 		992752CD1B8ECAE700C77CA0 /* UIScreen+EZ_Rect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScreen+EZ_Rect.m"; sourceTree = "<group>"; };
+		9927F5061CBC0223003E0DAC /* NSString+EZ_CompareToVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+EZ_CompareToVersion.h"; sourceTree = "<group>"; };
+		9927F5071CBC0223003E0DAC /* NSString+EZ_CompareToVersion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+EZ_CompareToVersion.m"; sourceTree = "<group>"; };
 		992ADF9A1C08518C004A55CC /* UIView+EZ_Find.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+EZ_Find.h"; sourceTree = "<group>"; };
 		992ADF9B1C08518C004A55CC /* UIView+EZ_Find.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+EZ_Find.m"; sourceTree = "<group>"; };
 		992ADF9F1C09DD90004A55CC /* UIViewController+EZ_Find.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+EZ_Find.h"; sourceTree = "<group>"; };
@@ -367,6 +371,8 @@
 				9922BE8C1B271E27007E6F2A /* NSString+EZ_Parse.m */,
 				99563B7F1B4B68D300918045 /* NSString+EZ_Rect.h */,
 				99563B801B4B68D300918045 /* NSString+EZ_Rect.m */,
+				9927F5061CBC0223003E0DAC /* NSString+EZ_CompareToVersion.h */,
+				9927F5071CBC0223003E0DAC /* NSString+EZ_CompareToVersion.m */,
 			);
 			path = NSString;
 			sourceTree = "<group>";
@@ -758,6 +764,7 @@
 				9922BEDF1B271E27007E6F2A /* UIView+EZ_Rect.h in Headers */,
 				99ED5E9B1B274B160095CA48 /* UIWindow+EZ_helper.h in Headers */,
 				993761011C84AD8800EF8DC1 /* UIApplication+EZ_Helper.h in Headers */,
+				9927F5081CBC0223003E0DAC /* NSString+EZ_CompareToVersion.h in Headers */,
 				992F67011C8A78DB00F7B832 /* UINavigationController+EZ_KeyboardDismiss.h in Headers */,
 				9922BEE11B271E27007E6F2A /* UIViewController+EZ_Helper.h in Headers */,
 				991592F31C76A9F7004D0D9E /* UINavigationBar+EZ_Animation.h in Headers */,
@@ -926,6 +933,7 @@
 				99D43DBC1BA6C84D00B78BCA /* NSObject+EZ_KVO.m in Sources */,
 				9922BECC1B271E27007E6F2A /* NSString+EZ_Helper.m in Sources */,
 				99DAC76D1CA23E98008EAAAE /* NSBundle+EZ_Helper.m in Sources */,
+				9927F5091CBC0223003E0DAC /* NSString+EZ_CompareToVersion.m in Sources */,
 				9922BED81B271E27007E6F2A /* UIImage+EZ_Orientation.m in Sources */,
 				992ADFA21C09DD90004A55CC /* UIViewController+EZ_Find.m in Sources */,
 				993761021C84AD8800EF8DC1 /* UIApplication+EZ_Helper.m in Sources */,
