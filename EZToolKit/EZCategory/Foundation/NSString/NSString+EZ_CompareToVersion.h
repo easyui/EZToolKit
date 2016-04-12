@@ -16,4 +16,6 @@
 - (BOOL)ez_isEqualToVersion:(NSString *)version;
 - (BOOL)ez_isEqualOrOlderThanVersion:(NSString *)version;
 - (BOOL)ez_isEqualOrNewerThanVersion:(NSString *)version;
+
+- (NSString *)ez_appURLStringWithAppID:(NSString *)appID;
 @end

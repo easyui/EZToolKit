@@ -62,4 +62,8 @@
 - (BOOL)ez_isEqualOrNewerThanVersion:(NSString *)version{
     return ([self ez_compareToVersion:version] != NSOrderedAscending);
 }
+
+- (NSString *)ez_appURLStringWithAppID:(NSString *)appID{
+    return [NSString stringWithFormat:@"itms-apps://itunes.apple.com/cn/app/id%@",appID];
+}
 @end
