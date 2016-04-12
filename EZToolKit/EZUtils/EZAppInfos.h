@@ -23,4 +23,9 @@
 @property (assign, readonly, nonatomic) UIDeviceModelType deviceModelType;
 @property (assign, readonly, nonatomic) NSInteger batteryLevel; //in pourcent
 @property (strong, readonly, nonatomic) NSString *compilationArchitecture;
+
+
+- (NSString *)appURLStringWithAppID:(NSString *)appID;
+- (NSString *)appInfoURLStringWithAppID:(NSString *)appID;
+
 @end
