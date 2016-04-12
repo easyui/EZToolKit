@@ -60,16 +60,61 @@ static BOOL alphaEnable = YES;
     //    NSLog(@"——————%f",self.scrollIndicatorInsets.top);
     UIScrollView *scroll = scrollView?scrollView:self;
     CGFloat offsetY = scroll.contentOffset.y + scroll.contentInset.top ;
-    //    NSLog(@"%f",offsetY);
+//        NSLog(@"%f",offsetY);
+    
     if (offsetY > 0) {
         if (offsetY >= 44 ) {
-            [self __ez_setNavigationBarTransformProgress:1];
+            [self __ez_setNavigationBarTransformProgress:1];//隐藏
         } else {
             [self __ez_setNavigationBarTransformProgress:(offsetY / navigationBarHeight)];
         }
     } else {
-        [self __ez_setNavigationBarTransformProgress:0];
+        [self __ez_setNavigationBarTransformProgress:0];//显示
     }
+     
+    
+
+}
+
+- (void)ez_hiddenNavigationBarDidScroll:(UIScrollView *)scrollView animateWithDuration:(NSTimeInterval)duration{
+    if (!scrollEnable) {
+        return;
+    }
+    
+    UINavigationBar *navigationBar = self.ez_navigationBar;
+    if (!navigationBar) {
+        return;
+    }
+
+    UIScrollView *scroll = scrollView?scrollView:self;
+    CGFloat offsetY = scroll.contentOffset.y + scroll.contentInset.top ;
+    CGFloat panTranslationY = [scrollView.panGestureRecognizer translationInView:scroll].y;
+    
+    
+    
+    if (offsetY > 0) {
+        if (panTranslationY > 0) { //下滑趋势，显示
+            NSLog(@"*%f",panTranslationY);
+            [UIView animateWithDuration:duration animations:^{
+                [self __ez_setNavigationBarTransformProgress:0];
+            }];
+        }
+        else {  //上滑趋势，隐藏
+            [UIView animateWithDuration:duration animations:^{
+                [self __ez_setNavigationBarTransformProgress:1];
+                
+            }];
+        }
+    }
+    else {
+        //显示
+             [UIView animateWithDuration:duration animations:^{
+            [self __ez_setNavigationBarTransformProgress:0];//显示
+        }];
+    }
+    
+
+
 }
 
 - (void)__ez_setNavigationBarTransformProgress:(CGFloat)progress

@@ -14,6 +14,7 @@
 - (void)ez_startUpdateNavigationBarHeight;
 - (void)ez_stopUpdateNavigationBarHeight;
 - (void)ez_updateNavigationBarHeightDidScroll:(UIScrollView *)scrollView;
+- (void)ez_hiddenNavigationBarDidScroll:(UIScrollView *)scrollView animateWithDuration:(NSTimeInterval)duration;
 
 
 
