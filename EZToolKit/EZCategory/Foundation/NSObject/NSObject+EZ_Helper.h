@@ -7,9 +7,15 @@
 //
 
 #import <Foundation/Foundation.h>
+typedef id (^EZWeakReference)(void);
 
 @interface NSObject (EZ_Helper)
 - (id)ez_performSelector:(SEL)aSelector withObject:(NSArray *)objects;
 
 - (NSUInteger)ez_retainCount;
+
+
+EZWeakReference ez_makeWeakReference(id object);
+
+id ez_weakReferenceNonretainedObjectValue(EZWeakReference ref);
 @end

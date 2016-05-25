@@ -182,4 +182,16 @@ static NSDictionary *__ez_rangeToDictionary(NSRange range)
     return [[self valueForKey:@"retainCount"] unsignedLongValue];
 }
 
+
+EZWeakReference ez_makeWeakReference(id object){
+    __weak id weakref = object;
+    return ^{
+        return weakref;
+    };
+}
+
+id ez_weakReferenceNonretainedObjectValue(EZWeakReference ref){
+    return ref ? ref() : nil;
+
+}
 @end
