@@ -178,6 +178,8 @@ static NSDictionary *__ez_rangeToDictionary(NSRange range)
 }
 
 
-
+- (NSUInteger)ez_retainCount {
+    return [[self valueForKey:@"retainCount"] unsignedLongValue];
+}
 
 @end
