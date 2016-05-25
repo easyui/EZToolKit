@@ -105,6 +105,12 @@
 		99ED5EA01B274BDF0095CA48 /* NSObject+EZ_Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 99ED5E9E1B274BDF0095CA48 /* NSObject+EZ_Helper.m */; };
 		BD3F87B21BCE3B5000BEA087 /* NSObject+EZ_AutoCoding.h in Headers */ = {isa = PBXBuildFile; fileRef = BD3F87B01BCE3B5000BEA087 /* NSObject+EZ_AutoCoding.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BD3F87B31BCE3B5000BEA087 /* NSObject+EZ_AutoCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = BD3F87B11BCE3B5000BEA087 /* NSObject+EZ_AutoCoding.m */; };
+		DD85174C1CF5618000DBB956 /* EZSerializeMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = DD85174B1CF5617500DBB956 /* EZSerializeMacro.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD8517521CF5643800DBB956 /* Biology.m in Sources */ = {isa = PBXBuildFile; fileRef = DD8517501CF5643800DBB956 /* Biology.m */; };
+		DD8517531CF5643800DBB956 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = DD8517511CF5643800DBB956 /* Person.m */; };
+		DD8517551CF5646800DBB956 /* EZSerializeMacroTest.m in Sources */ = {isa = PBXBuildFile; fileRef = DD8517541CF5646800DBB956 /* EZSerializeMacroTest.m */; };
+		DDF559A31CCDECD20071A52F /* NSString+EZ_UrlEncode.h in Headers */ = {isa = PBXBuildFile; fileRef = DDF559A11CCDECD20071A52F /* NSString+EZ_UrlEncode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DDF559A41CCDECD20071A52F /* NSString+EZ_UrlEncode.m in Sources */ = {isa = PBXBuildFile; fileRef = DDF559A21CCDECD20071A52F /* NSString+EZ_UrlEncode.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -211,6 +217,14 @@
 		99ED5E9E1B274BDF0095CA48 /* NSObject+EZ_Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+EZ_Helper.m"; sourceTree = "<group>"; };
 		BD3F87B01BCE3B5000BEA087 /* NSObject+EZ_AutoCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+EZ_AutoCoding.h"; sourceTree = "<group>"; };
 		BD3F87B11BCE3B5000BEA087 /* NSObject+EZ_AutoCoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+EZ_AutoCoding.m"; sourceTree = "<group>"; };
+		DD85174B1CF5617500DBB956 /* EZSerializeMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EZSerializeMacro.h; sourceTree = "<group>"; };
+		DD85174E1CF5643800DBB956 /* Biology.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Biology.h; sourceTree = "<group>"; };
+		DD85174F1CF5643800DBB956 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		DD8517501CF5643800DBB956 /* Biology.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Biology.m; sourceTree = "<group>"; };
+		DD8517511CF5643800DBB956 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		DD8517541CF5646800DBB956 /* EZSerializeMacroTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZSerializeMacroTest.m; sourceTree = "<group>"; };
+		DDF559A11CCDECD20071A52F /* NSString+EZ_UrlEncode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+EZ_UrlEncode.h"; sourceTree = "<group>"; };
+		DDF559A21CCDECD20071A52F /* NSString+EZ_UrlEncode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+EZ_UrlEncode.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -373,6 +387,8 @@
 				99563B801B4B68D300918045 /* NSString+EZ_Rect.m */,
 				9927F5061CBC0223003E0DAC /* NSString+EZ_CompareToVersion.h */,
 				9927F5071CBC0223003E0DAC /* NSString+EZ_CompareToVersion.m */,
+				DDF559A11CCDECD20071A52F /* NSString+EZ_UrlEncode.h */,
+				DDF559A21CCDECD20071A52F /* NSString+EZ_UrlEncode.m */,
 			);
 			path = NSString;
 			sourceTree = "<group>";
@@ -673,6 +689,7 @@
 				997E3BBF1C4B43C7006FE753 /* EZAppInfos.m */,
 				99ECF1B31CA4341800817A7D /* EZFrameworkObserver.h */,
 				99ECF1B41CA4341800817A7D /* EZFrameworkObserver.m */,
+				DD85174B1CF5617500DBB956 /* EZSerializeMacro.h */,
 			);
 			path = EZUtils;
 			sourceTree = "<group>";
@@ -717,6 +734,7 @@
 		99CB0BBB1B0C2F1D003B8FCF /* EZToolKitTests */ = {
 			isa = PBXGroup;
 			children = (
+				DD85174D1CF5641D00DBB956 /* EZSerializeMacroTest */,
 				99CB0BBE1B0C2F1D003B8FCF /* EZToolKitTests.m */,
 				99CB0BBC1B0C2F1D003B8FCF /* Supporting Files */,
 			);
@@ -738,6 +756,18 @@
 				9922BE921B271E27007E6F2A /* UIKit */,
 			);
 			path = EZCategory;
+			sourceTree = "<group>";
+		};
+		DD85174D1CF5641D00DBB956 /* EZSerializeMacroTest */ = {
+			isa = PBXGroup;
+			children = (
+				DD85174E1CF5643800DBB956 /* Biology.h */,
+				DD8517501CF5643800DBB956 /* Biology.m */,
+				DD85174F1CF5643800DBB956 /* Person.h */,
+				DD8517511CF5643800DBB956 /* Person.m */,
+				DD8517541CF5646800DBB956 /* EZSerializeMacroTest.m */,
+			);
+			path = EZSerializeMacroTest;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -762,6 +792,7 @@
 				9922BECB1B271E27007E6F2A /* NSString+EZ_Helper.h in Headers */,
 				991592E91C75E806004D0D9E /* UIScrollView+EZ_Navigationbar.h in Headers */,
 				9922BEDF1B271E27007E6F2A /* UIView+EZ_Rect.h in Headers */,
+				DD85174C1CF5618000DBB956 /* EZSerializeMacro.h in Headers */,
 				99ED5E9B1B274B160095CA48 /* UIWindow+EZ_helper.h in Headers */,
 				993761011C84AD8800EF8DC1 /* UIApplication+EZ_Helper.h in Headers */,
 				9927F5081CBC0223003E0DAC /* NSString+EZ_CompareToVersion.h in Headers */,
@@ -774,6 +805,7 @@
 				99D43DBB1BA6C84D00B78BCA /* NSObject+EZ_KVO.h in Headers */,
 				9922BEE51B272026007E6F2A /* NSURL+EZ_Helper.h in Headers */,
 				99563B811B4B68D300918045 /* NSString+EZ_Rect.h in Headers */,
+				DDF559A31CCDECD20071A52F /* NSString+EZ_UrlEncode.h in Headers */,
 				9922BEC91B271E27007E6F2A /* NSString+EZ_Format.h in Headers */,
 				9922BEC31B271E27007E6F2A /* NSNull+EZ_System.h in Headers */,
 				9922BEE91B272263007E6F2A /* NSBundle+EZ_AppIcon.h in Headers */,
@@ -944,6 +976,7 @@
 				9922BEC01B271E27007E6F2A /* NSData+EZ_Parse.m in Sources */,
 				9922BED41B271E27007E6F2A /* UIDevice+EZ_Helper.m in Sources */,
 				993761061C84AFCA00EF8DC1 /* UIApplication+Permissions.m in Sources */,
+				DDF559A41CCDECD20071A52F /* NSString+EZ_UrlEncode.m in Sources */,
 				9922BEDE1B271E27007E6F2A /* UIView+EZ_Helper.m in Sources */,
 				BD3F87B31BCE3B5000BEA087 /* NSObject+EZ_AutoCoding.m in Sources */,
 				99ECF1B61CA4341800817A7D /* EZFrameworkObserver.m in Sources */,
@@ -954,7 +987,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD8517531CF5643800DBB956 /* Person.m in Sources */,
 				99CB0BBF1B0C2F1D003B8FCF /* EZToolKitTests.m in Sources */,
+				DD8517551CF5646800DBB956 /* EZSerializeMacroTest.m in Sources */,
+				DD8517521CF5643800DBB956 /* Biology.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
