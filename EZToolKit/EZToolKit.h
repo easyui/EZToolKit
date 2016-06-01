@@ -33,6 +33,8 @@
 #import <EZToolKit/NSURL+EZ_Helper.h>
 #import <EZToolKit/NSNotificationCenter+EZ_MainThread.h>
 
+#import <EZToolKit/NSRunLoop+EZ_Helper.h>
+
 
 #import <EZToolKit/UIDevice+EZ_Helper.h>
 #import <EZToolKit/UIViewController+EZ_Helper.h>

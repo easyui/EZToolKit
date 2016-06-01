@@ -105,6 +105,8 @@
 		99ED5EA01B274BDF0095CA48 /* NSObject+EZ_Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 99ED5E9E1B274BDF0095CA48 /* NSObject+EZ_Helper.m */; };
 		BD3F87B21BCE3B5000BEA087 /* NSObject+EZ_AutoCoding.h in Headers */ = {isa = PBXBuildFile; fileRef = BD3F87B01BCE3B5000BEA087 /* NSObject+EZ_AutoCoding.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BD3F87B31BCE3B5000BEA087 /* NSObject+EZ_AutoCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = BD3F87B11BCE3B5000BEA087 /* NSObject+EZ_AutoCoding.m */; };
+		DD8195351CFDEA53005A6DD5 /* NSRunLoop+EZ_Helper.h in Headers */ = {isa = PBXBuildFile; fileRef = DD8195331CFDEA53005A6DD5 /* NSRunLoop+EZ_Helper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD8195361CFDEA53005A6DD5 /* NSRunLoop+EZ_Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = DD8195341CFDEA53005A6DD5 /* NSRunLoop+EZ_Helper.m */; };
 		DD85174C1CF5618000DBB956 /* EZSerializeMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = DD85174B1CF5617500DBB956 /* EZSerializeMacro.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DD8517521CF5643800DBB956 /* Biology.m in Sources */ = {isa = PBXBuildFile; fileRef = DD8517501CF5643800DBB956 /* Biology.m */; };
 		DD8517531CF5643800DBB956 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = DD8517511CF5643800DBB956 /* Person.m */; };
@@ -217,6 +219,8 @@
 		99ED5E9E1B274BDF0095CA48 /* NSObject+EZ_Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+EZ_Helper.m"; sourceTree = "<group>"; };
 		BD3F87B01BCE3B5000BEA087 /* NSObject+EZ_AutoCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+EZ_AutoCoding.h"; sourceTree = "<group>"; };
 		BD3F87B11BCE3B5000BEA087 /* NSObject+EZ_AutoCoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+EZ_AutoCoding.m"; sourceTree = "<group>"; };
+		DD8195331CFDEA53005A6DD5 /* NSRunLoop+EZ_Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSRunLoop+EZ_Helper.h"; sourceTree = "<group>"; };
+		DD8195341CFDEA53005A6DD5 /* NSRunLoop+EZ_Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSRunLoop+EZ_Helper.m"; sourceTree = "<group>"; };
 		DD85174B1CF5617500DBB956 /* EZSerializeMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EZSerializeMacro.h; sourceTree = "<group>"; };
 		DD85174E1CF5643800DBB956 /* Biology.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Biology.h; sourceTree = "<group>"; };
 		DD85174F1CF5643800DBB956 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
@@ -249,6 +253,7 @@
 		9922BE6F1B271E27007E6F2A /* Foundation */ = {
 			isa = PBXGroup;
 			children = (
+				DD8195321CFDEA1B005A6DD5 /* NSRunLoop */,
 				9922BE701B271E27007E6F2A /* NSArray */,
 				9922BE711B271E27007E6F2A /* NSBundle */,
 				9922BE721B271E27007E6F2A /* NSData */,
@@ -758,6 +763,15 @@
 			path = EZCategory;
 			sourceTree = "<group>";
 		};
+		DD8195321CFDEA1B005A6DD5 /* NSRunLoop */ = {
+			isa = PBXGroup;
+			children = (
+				DD8195331CFDEA53005A6DD5 /* NSRunLoop+EZ_Helper.h */,
+				DD8195341CFDEA53005A6DD5 /* NSRunLoop+EZ_Helper.m */,
+			);
+			path = NSRunLoop;
+			sourceTree = "<group>";
+		};
 		DD85174D1CF5641D00DBB956 /* EZSerializeMacroTest */ = {
 			isa = PBXGroup;
 			children = (
@@ -817,6 +831,7 @@
 				9922BED31B271E27007E6F2A /* UIDevice+EZ_Helper.h in Headers */,
 				992752CE1B8ECAE700C77CA0 /* UIScreen+EZ_Rect.h in Headers */,
 				9922BED91B271E27007E6F2A /* UILabel+EZ_Rect.h in Headers */,
+				DD8195351CFDEA53005A6DD5 /* NSRunLoop+EZ_Helper.h in Headers */,
 				992ADF9C1C08518C004A55CC /* UIView+EZ_Find.h in Headers */,
 				9922BECF1B271E27007E6F2A /* NSTimer+EZ_Helper.h in Headers */,
 				99CB0BB21B0C2F1D003B8FCF /* EZToolKit.h in Headers */,
@@ -964,6 +979,7 @@
 				9922BEDC1B271E27007E6F2A /* UIView+EZ_Action.m in Sources */,
 				99D43DBC1BA6C84D00B78BCA /* NSObject+EZ_KVO.m in Sources */,
 				9922BECC1B271E27007E6F2A /* NSString+EZ_Helper.m in Sources */,
+				DD8195361CFDEA53005A6DD5 /* NSRunLoop+EZ_Helper.m in Sources */,
 				99DAC76D1CA23E98008EAAAE /* NSBundle+EZ_Helper.m in Sources */,
 				9927F5091CBC0223003E0DAC /* NSString+EZ_CompareToVersion.m in Sources */,
 				9922BED81B271E27007E6F2A /* UIImage+EZ_Orientation.m in Sources */,
