@@ -88,6 +88,8 @@
 		9944BC391C86BEDB0026FDF9 /* NSNotificationCenter+EZ_MainThread.m in Sources */ = {isa = PBXBuildFile; fileRef = 9944BC371C86BEDB0026FDF9 /* NSNotificationCenter+EZ_MainThread.m */; };
 		99563B811B4B68D300918045 /* NSString+EZ_Rect.h in Headers */ = {isa = PBXBuildFile; fileRef = 99563B7F1B4B68D300918045 /* NSString+EZ_Rect.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		99563B821B4B68D300918045 /* NSString+EZ_Rect.m in Sources */ = {isa = PBXBuildFile; fileRef = 99563B801B4B68D300918045 /* NSString+EZ_Rect.m */; };
+		9965DEA11DC2597200998E8D /* AVMetadataItem+EZ_Helper.h in Headers */ = {isa = PBXBuildFile; fileRef = 9965DE9F1DC2597200998E8D /* AVMetadataItem+EZ_Helper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9965DEA21DC2597200998E8D /* AVMetadataItem+EZ_Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 9965DEA01DC2597200998E8D /* AVMetadataItem+EZ_Helper.m */; };
 		997E3BC01C4B43C7006FE753 /* EZAppInfos.h in Headers */ = {isa = PBXBuildFile; fileRef = 997E3BBE1C4B43C7006FE753 /* EZAppInfos.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		997E3BC11C4B43C7006FE753 /* EZAppInfos.m in Sources */ = {isa = PBXBuildFile; fileRef = 997E3BBF1C4B43C7006FE753 /* EZAppInfos.m */; };
 		99CB0BB21B0C2F1D003B8FCF /* EZToolKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 99CB0BB11B0C2F1D003B8FCF /* EZToolKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -199,6 +201,8 @@
 		9944BC371C86BEDB0026FDF9 /* NSNotificationCenter+EZ_MainThread.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNotificationCenter+EZ_MainThread.m"; sourceTree = "<group>"; };
 		99563B7F1B4B68D300918045 /* NSString+EZ_Rect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+EZ_Rect.h"; sourceTree = "<group>"; };
 		99563B801B4B68D300918045 /* NSString+EZ_Rect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+EZ_Rect.m"; sourceTree = "<group>"; };
+		9965DE9F1DC2597200998E8D /* AVMetadataItem+EZ_Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AVMetadataItem+EZ_Helper.h"; sourceTree = "<group>"; };
+		9965DEA01DC2597200998E8D /* AVMetadataItem+EZ_Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AVMetadataItem+EZ_Helper.m"; sourceTree = "<group>"; };
 		997E3BBE1C4B43C7006FE753 /* EZAppInfos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZAppInfos.h; sourceTree = "<group>"; };
 		997E3BBF1C4B43C7006FE753 /* EZAppInfos.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZAppInfos.m; sourceTree = "<group>"; };
 		99CB0BAC1B0C2F1D003B8FCF /* EZToolKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EZToolKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -687,6 +691,15 @@
 			path = NSNotificationCenter;
 			sourceTree = "<group>";
 		};
+		9965DE9E1DC2593C00998E8D /* AVFoundation */ = {
+			isa = PBXGroup;
+			children = (
+				9965DE9F1DC2597200998E8D /* AVMetadataItem+EZ_Helper.h */,
+				9965DEA01DC2597200998E8D /* AVMetadataItem+EZ_Helper.m */,
+			);
+			path = AVFoundation;
+			sourceTree = "<group>";
+		};
 		997E3BBD1C4B4312006FE753 /* EZUtils */ = {
 			isa = PBXGroup;
 			children = (
@@ -757,6 +770,7 @@
 		99CB0BC81B0C3399003B8FCF /* EZCategory */ = {
 			isa = PBXGroup;
 			children = (
+				9965DE9E1DC2593C00998E8D /* AVFoundation */,
 				9922BE6F1B271E27007E6F2A /* Foundation */,
 				9922BE921B271E27007E6F2A /* UIKit */,
 			);
@@ -815,6 +829,7 @@
 				991592F31C76A9F7004D0D9E /* UINavigationBar+EZ_Animation.h in Headers */,
 				993761051C84AFCA00EF8DC1 /* UIApplication+Permissions.h in Headers */,
 				9922BEC71B271E27007E6F2A /* NSObject+EZ_Parse.h in Headers */,
+				9965DEA11DC2597200998E8D /* AVMetadataItem+EZ_Helper.h in Headers */,
 				9922BEDB1B271E27007E6F2A /* UIView+EZ_Action.h in Headers */,
 				99D43DBB1BA6C84D00B78BCA /* NSObject+EZ_KVO.h in Headers */,
 				9922BEE51B272026007E6F2A /* NSURL+EZ_Helper.h in Headers */,
@@ -971,6 +986,7 @@
 				992F67021C8A78DB00F7B832 /* UINavigationController+EZ_KeyboardDismiss.m in Sources */,
 				991592EE1C75F113004D0D9E /* UIScrollView+EZ_HeaderView.m in Sources */,
 				992752CF1B8ECAE700C77CA0 /* UIScreen+EZ_Rect.m in Sources */,
+				9965DEA21DC2597200998E8D /* AVMetadataItem+EZ_Helper.m in Sources */,
 				9922BEE21B271E27007E6F2A /* UIViewController+EZ_Helper.m in Sources */,
 				9922BED01B271E27007E6F2A /* NSTimer+EZ_Helper.m in Sources */,
 				991592EA1C75E806004D0D9E /* UIScrollView+EZ_Navigationbar.m in Sources */,
