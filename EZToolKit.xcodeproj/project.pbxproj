@@ -92,6 +92,8 @@
 		9965DEA21DC2597200998E8D /* AVMetadataItem+EZ_Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 9965DEA01DC2597200998E8D /* AVMetadataItem+EZ_Helper.m */; };
 		997E3BC01C4B43C7006FE753 /* EZAppInfos.h in Headers */ = {isa = PBXBuildFile; fileRef = 997E3BBE1C4B43C7006FE753 /* EZAppInfos.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		997E3BC11C4B43C7006FE753 /* EZAppInfos.m in Sources */ = {isa = PBXBuildFile; fileRef = 997E3BBF1C4B43C7006FE753 /* EZAppInfos.m */; };
+		99B998A21E1F97D100DBC4AA /* NSObject+EZ_Dealloc.h in Headers */ = {isa = PBXBuildFile; fileRef = 99B998A01E1F97D100DBC4AA /* NSObject+EZ_Dealloc.h */; };
+		99B998A31E1F97D100DBC4AA /* NSObject+EZ_Dealloc.m in Sources */ = {isa = PBXBuildFile; fileRef = 99B998A11E1F97D100DBC4AA /* NSObject+EZ_Dealloc.m */; };
 		99CB0BB21B0C2F1D003B8FCF /* EZToolKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 99CB0BB11B0C2F1D003B8FCF /* EZToolKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		99CB0BB81B0C2F1D003B8FCF /* EZToolKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99CB0BAC1B0C2F1D003B8FCF /* EZToolKit.framework */; };
 		99CB0BBF1B0C2F1D003B8FCF /* EZToolKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 99CB0BBE1B0C2F1D003B8FCF /* EZToolKitTests.m */; };
@@ -205,6 +207,8 @@
 		9965DEA01DC2597200998E8D /* AVMetadataItem+EZ_Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AVMetadataItem+EZ_Helper.m"; sourceTree = "<group>"; };
 		997E3BBE1C4B43C7006FE753 /* EZAppInfos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZAppInfos.h; sourceTree = "<group>"; };
 		997E3BBF1C4B43C7006FE753 /* EZAppInfos.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZAppInfos.m; sourceTree = "<group>"; };
+		99B998A01E1F97D100DBC4AA /* NSObject+EZ_Dealloc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+EZ_Dealloc.h"; sourceTree = "<group>"; };
+		99B998A11E1F97D100DBC4AA /* NSObject+EZ_Dealloc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+EZ_Dealloc.m"; sourceTree = "<group>"; };
 		99CB0BAC1B0C2F1D003B8FCF /* EZToolKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EZToolKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		99CB0BB01B0C2F1D003B8FCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		99CB0BB11B0C2F1D003B8FCF /* EZToolKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EZToolKit.h; sourceTree = "<group>"; };
@@ -379,6 +383,8 @@
 				99D43DBA1BA6C84D00B78BCA /* NSObject+EZ_KVO.m */,
 				BD3F87B01BCE3B5000BEA087 /* NSObject+EZ_AutoCoding.h */,
 				BD3F87B11BCE3B5000BEA087 /* NSObject+EZ_AutoCoding.m */,
+				99B998A01E1F97D100DBC4AA /* NSObject+EZ_Dealloc.h */,
+				99B998A11E1F97D100DBC4AA /* NSObject+EZ_Dealloc.m */,
 			);
 			path = NSObject;
 			sourceTree = "<group>";
@@ -833,6 +839,7 @@
 				9922BEDB1B271E27007E6F2A /* UIView+EZ_Action.h in Headers */,
 				99D43DBB1BA6C84D00B78BCA /* NSObject+EZ_KVO.h in Headers */,
 				9922BEE51B272026007E6F2A /* NSURL+EZ_Helper.h in Headers */,
+				99B998A21E1F97D100DBC4AA /* NSObject+EZ_Dealloc.h in Headers */,
 				99563B811B4B68D300918045 /* NSString+EZ_Rect.h in Headers */,
 				DDF559A31CCDECD20071A52F /* NSString+EZ_UrlEncode.h in Headers */,
 				9922BEC91B271E27007E6F2A /* NSString+EZ_Format.h in Headers */,
@@ -986,6 +993,7 @@
 				992F67021C8A78DB00F7B832 /* UINavigationController+EZ_KeyboardDismiss.m in Sources */,
 				991592EE1C75F113004D0D9E /* UIScrollView+EZ_HeaderView.m in Sources */,
 				992752CF1B8ECAE700C77CA0 /* UIScreen+EZ_Rect.m in Sources */,
+				99B998A31E1F97D100DBC4AA /* NSObject+EZ_Dealloc.m in Sources */,
 				9965DEA21DC2597200998E8D /* AVMetadataItem+EZ_Helper.m in Sources */,
 				9922BEE21B271E27007E6F2A /* UIViewController+EZ_Helper.m in Sources */,
 				9922BED01B271E27007E6F2A /* NSTimer+EZ_Helper.m in Sources */,
