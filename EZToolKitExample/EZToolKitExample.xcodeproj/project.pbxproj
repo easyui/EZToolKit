@@ -1,0 +1,594 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A6B9B35A1E8903B300047E70 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6B9B3591E8903B300047E70 /* main.m */; };
+		A6B9B35D1E8903B300047E70 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6B9B35C1E8903B300047E70 /* AppDelegate.m */; };
+		A6B9B3601E8903B300047E70 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6B9B35F1E8903B300047E70 /* ViewController.m */; };
+		A6B9B3631E8903B300047E70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6B9B3611E8903B300047E70 /* Main.storyboard */; };
+		A6B9B3651E8903B300047E70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6B9B3641E8903B300047E70 /* Assets.xcassets */; };
+		A6B9B3681E8903B300047E70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6B9B3661E8903B300047E70 /* LaunchScreen.storyboard */; };
+		A6B9B3731E8903B300047E70 /* EZToolKitExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A6B9B3721E8903B300047E70 /* EZToolKitExampleTests.m */; };
+		A6B9B37E1E8903B300047E70 /* EZToolKitExampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A6B9B37D1E8903B300047E70 /* EZToolKitExampleUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A6B9B36F1E8903B300047E70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A6B9B34D1E8903B300047E70 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A6B9B3541E8903B300047E70;
+			remoteInfo = EZToolKitExample;
+		};
+		A6B9B37A1E8903B300047E70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A6B9B34D1E8903B300047E70 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A6B9B3541E8903B300047E70;
+			remoteInfo = EZToolKitExample;
+		};
+		A6B9B3911E89046D00047E70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A6B9B38B1E89046D00047E70 /* EZToolKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 99CB0BAC1B0C2F1D003B8FCF;
+			remoteInfo = EZToolKit;
+		};
+		A6B9B3931E89046D00047E70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A6B9B38B1E89046D00047E70 /* EZToolKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 99CB0BB71B0C2F1D003B8FCF;
+			remoteInfo = EZToolKitTests;
+		};
+		A6B9B3951E89047A00047E70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A6B9B38B1E89046D00047E70 /* EZToolKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 99CB0BAB1B0C2F1D003B8FCF;
+			remoteInfo = EZToolKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A6B9B3551E8903B300047E70 /* EZToolKitExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EZToolKitExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6B9B3591E8903B300047E70 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A6B9B35B1E8903B300047E70 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A6B9B35C1E8903B300047E70 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A6B9B35E1E8903B300047E70 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A6B9B35F1E8903B300047E70 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A6B9B3621E8903B300047E70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A6B9B3641E8903B300047E70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A6B9B3671E8903B300047E70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A6B9B3691E8903B300047E70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6B9B36E1E8903B300047E70 /* EZToolKitExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EZToolKitExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6B9B3721E8903B300047E70 /* EZToolKitExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EZToolKitExampleTests.m; sourceTree = "<group>"; };
+		A6B9B3741E8903B300047E70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6B9B3791E8903B300047E70 /* EZToolKitExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EZToolKitExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6B9B37D1E8903B300047E70 /* EZToolKitExampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EZToolKitExampleUITests.m; sourceTree = "<group>"; };
+		A6B9B37F1E8903B300047E70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6B9B38B1E89046D00047E70 /* EZToolKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = EZToolKit.xcodeproj; path = ../EZToolKit.xcodeproj; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A6B9B3521E8903B300047E70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6B9B36B1E8903B300047E70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6B9B3761E8903B300047E70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A6B9B34C1E8903B300047E70 = {
+			isa = PBXGroup;
+			children = (
+				A6B9B38B1E89046D00047E70 /* EZToolKit.xcodeproj */,
+				A6B9B3571E8903B300047E70 /* EZToolKitExample */,
+				A6B9B3711E8903B300047E70 /* EZToolKitExampleTests */,
+				A6B9B37C1E8903B300047E70 /* EZToolKitExampleUITests */,
+				A6B9B3561E8903B300047E70 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A6B9B3561E8903B300047E70 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6B9B3551E8903B300047E70 /* EZToolKitExample.app */,
+				A6B9B36E1E8903B300047E70 /* EZToolKitExampleTests.xctest */,
+				A6B9B3791E8903B300047E70 /* EZToolKitExampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6B9B3571E8903B300047E70 /* EZToolKitExample */ = {
+			isa = PBXGroup;
+			children = (
+				A6B9B35B1E8903B300047E70 /* AppDelegate.h */,
+				A6B9B35C1E8903B300047E70 /* AppDelegate.m */,
+				A6B9B35E1E8903B300047E70 /* ViewController.h */,
+				A6B9B35F1E8903B300047E70 /* ViewController.m */,
+				A6B9B3611E8903B300047E70 /* Main.storyboard */,
+				A6B9B3641E8903B300047E70 /* Assets.xcassets */,
+				A6B9B3661E8903B300047E70 /* LaunchScreen.storyboard */,
+				A6B9B3691E8903B300047E70 /* Info.plist */,
+				A6B9B3581E8903B300047E70 /* Supporting Files */,
+			);
+			path = EZToolKitExample;
+			sourceTree = "<group>";
+		};
+		A6B9B3581E8903B300047E70 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A6B9B3591E8903B300047E70 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A6B9B3711E8903B300047E70 /* EZToolKitExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				A6B9B3721E8903B300047E70 /* EZToolKitExampleTests.m */,
+				A6B9B3741E8903B300047E70 /* Info.plist */,
+			);
+			path = EZToolKitExampleTests;
+			sourceTree = "<group>";
+		};
+		A6B9B37C1E8903B300047E70 /* EZToolKitExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A6B9B37D1E8903B300047E70 /* EZToolKitExampleUITests.m */,
+				A6B9B37F1E8903B300047E70 /* Info.plist */,
+			);
+			path = EZToolKitExampleUITests;
+			sourceTree = "<group>";
+		};
+		A6B9B38C1E89046D00047E70 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6B9B3921E89046D00047E70 /* EZToolKit.framework */,
+				A6B9B3941E89046D00047E70 /* EZToolKitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A6B9B3541E8903B300047E70 /* EZToolKitExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6B9B3821E8903B300047E70 /* Build configuration list for PBXNativeTarget "EZToolKitExample" */;
+			buildPhases = (
+				A6B9B3511E8903B300047E70 /* Sources */,
+				A6B9B3521E8903B300047E70 /* Frameworks */,
+				A6B9B3531E8903B300047E70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A6B9B3961E89047A00047E70 /* PBXTargetDependency */,
+			);
+			name = EZToolKitExample;
+			productName = EZToolKitExample;
+			productReference = A6B9B3551E8903B300047E70 /* EZToolKitExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A6B9B36D1E8903B300047E70 /* EZToolKitExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6B9B3851E8903B300047E70 /* Build configuration list for PBXNativeTarget "EZToolKitExampleTests" */;
+			buildPhases = (
+				A6B9B36A1E8903B300047E70 /* Sources */,
+				A6B9B36B1E8903B300047E70 /* Frameworks */,
+				A6B9B36C1E8903B300047E70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A6B9B3701E8903B300047E70 /* PBXTargetDependency */,
+			);
+			name = EZToolKitExampleTests;
+			productName = EZToolKitExampleTests;
+			productReference = A6B9B36E1E8903B300047E70 /* EZToolKitExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A6B9B3781E8903B300047E70 /* EZToolKitExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6B9B3881E8903B300047E70 /* Build configuration list for PBXNativeTarget "EZToolKitExampleUITests" */;
+			buildPhases = (
+				A6B9B3751E8903B300047E70 /* Sources */,
+				A6B9B3761E8903B300047E70 /* Frameworks */,
+				A6B9B3771E8903B300047E70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A6B9B37B1E8903B300047E70 /* PBXTargetDependency */,
+			);
+			name = EZToolKitExampleUITests;
+			productName = EZToolKitExampleUITests;
+			productReference = A6B9B3791E8903B300047E70 /* EZToolKitExampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6B9B34D1E8903B300047E70 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Zhu yangjun";
+				TargetAttributes = {
+					A6B9B3541E8903B300047E70 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					A6B9B36D1E8903B300047E70 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A6B9B3541E8903B300047E70;
+					};
+					A6B9B3781E8903B300047E70 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A6B9B3541E8903B300047E70;
+					};
+				};
+			};
+			buildConfigurationList = A6B9B3501E8903B300047E70 /* Build configuration list for PBXProject "EZToolKitExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A6B9B34C1E8903B300047E70;
+			productRefGroup = A6B9B3561E8903B300047E70 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = A6B9B38C1E89046D00047E70 /* Products */;
+					ProjectRef = A6B9B38B1E89046D00047E70 /* EZToolKit.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				A6B9B3541E8903B300047E70 /* EZToolKitExample */,
+				A6B9B36D1E8903B300047E70 /* EZToolKitExampleTests */,
+				A6B9B3781E8903B300047E70 /* EZToolKitExampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		A6B9B3921E89046D00047E70 /* EZToolKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = EZToolKit.framework;
+			remoteRef = A6B9B3911E89046D00047E70 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A6B9B3941E89046D00047E70 /* EZToolKitTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = EZToolKitTests.xctest;
+			remoteRef = A6B9B3931E89046D00047E70 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A6B9B3531E8903B300047E70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6B9B3681E8903B300047E70 /* LaunchScreen.storyboard in Resources */,
+				A6B9B3651E8903B300047E70 /* Assets.xcassets in Resources */,
+				A6B9B3631E8903B300047E70 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6B9B36C1E8903B300047E70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6B9B3771E8903B300047E70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6B9B3511E8903B300047E70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6B9B3601E8903B300047E70 /* ViewController.m in Sources */,
+				A6B9B35D1E8903B300047E70 /* AppDelegate.m in Sources */,
+				A6B9B35A1E8903B300047E70 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6B9B36A1E8903B300047E70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6B9B3731E8903B300047E70 /* EZToolKitExampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6B9B3751E8903B300047E70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6B9B37E1E8903B300047E70 /* EZToolKitExampleUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A6B9B3701E8903B300047E70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A6B9B3541E8903B300047E70 /* EZToolKitExample */;
+			targetProxy = A6B9B36F1E8903B300047E70 /* PBXContainerItemProxy */;
+		};
+		A6B9B37B1E8903B300047E70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A6B9B3541E8903B300047E70 /* EZToolKitExample */;
+			targetProxy = A6B9B37A1E8903B300047E70 /* PBXContainerItemProxy */;
+		};
+		A6B9B3961E89047A00047E70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EZToolKit;
+			targetProxy = A6B9B3951E89047A00047E70 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A6B9B3611E8903B300047E70 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6B9B3621E8903B300047E70 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A6B9B3661E8903B300047E70 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6B9B3671E8903B300047E70 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A6B9B3801E8903B300047E70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A6B9B3811E8903B300047E70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A6B9B3831E8903B300047E70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EZToolKitExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.oukavip.EZToolKitExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A6B9B3841E8903B300047E70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EZToolKitExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.oukavip.EZToolKitExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A6B9B3861E8903B300047E70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EZToolKitExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.oukavip.EZToolKitExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EZToolKitExample.app/EZToolKitExample";
+			};
+			name = Debug;
+		};
+		A6B9B3871E8903B300047E70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EZToolKitExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.oukavip.EZToolKitExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EZToolKitExample.app/EZToolKitExample";
+			};
+			name = Release;
+		};
+		A6B9B3891E8903B300047E70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = EZToolKitExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.oukavip.EZToolKitExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = EZToolKitExample;
+			};
+			name = Debug;
+		};
+		A6B9B38A1E8903B300047E70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = EZToolKitExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.oukavip.EZToolKitExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = EZToolKitExample;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A6B9B3501E8903B300047E70 /* Build configuration list for PBXProject "EZToolKitExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6B9B3801E8903B300047E70 /* Debug */,
+				A6B9B3811E8903B300047E70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6B9B3821E8903B300047E70 /* Build configuration list for PBXNativeTarget "EZToolKitExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6B9B3831E8903B300047E70 /* Debug */,
+				A6B9B3841E8903B300047E70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6B9B3851E8903B300047E70 /* Build configuration list for PBXNativeTarget "EZToolKitExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6B9B3861E8903B300047E70 /* Debug */,
+				A6B9B3871E8903B300047E70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6B9B3881E8903B300047E70 /* Build configuration list for PBXNativeTarget "EZToolKitExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6B9B3891E8903B300047E70 /* Debug */,
+				A6B9B38A1E8903B300047E70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A6B9B34D1E8903B300047E70 /* Project object */;
+}
