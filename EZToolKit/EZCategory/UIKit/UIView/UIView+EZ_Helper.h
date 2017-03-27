@@ -9,9 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface UIView (EZ_Helper)
-//<ios7
+// <ios7
 - (UIImage *)ez_snapshotImage;
-//>=ios7
+// >=ios7
 - (UIImage *)ez_snapshotImageAfterScreenUpdates:(BOOL)afterUpdates;
 
 
