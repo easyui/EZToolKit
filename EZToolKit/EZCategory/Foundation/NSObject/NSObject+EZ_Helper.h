@@ -18,4 +18,12 @@ typedef id (^EZWeakReference)(void);
 EZWeakReference ez_makeWeakReference(id object);
 
 id ez_weakReferenceNonretainedObjectValue(EZWeakReference ref);
+
+
+
+/**
+ 对象的tag，可以相同
+ */
+@property (nonatomic, strong) NSString *nameTag;
+
 @end

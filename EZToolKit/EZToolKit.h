@@ -56,6 +56,7 @@
 #import <EZToolKit/UIView+EZ_Action.h>
 #import <EZToolKit/UIView+EZ_Rect.h>
 #import <EZToolKit/UIView+EZ_Find.h>
+#import <EZToolKit/UIView+EZ_Constraint.h>
 #import <EZToolKit/UIWindow+EZ_Helper.h>
 #import <EZToolKit/UIScrollView+EZ_HeaderView.h>
 #import <EZToolKit/UINavigationController+EZ_KeyboardDismiss.h>

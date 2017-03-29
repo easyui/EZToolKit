@@ -8,6 +8,7 @@
 
 #import "NSObject+EZ_Helper.h"
 #import <UIKit/UIKit.h>
+#import <objc/runtime.h>
 
 @implementation NSObject (EZ_Helper)
 - (id)ez_performSelector:(SEL)aSelector withObject:(NSArray *)objects{
@@ -192,6 +193,16 @@ EZWeakReference ez_makeWeakReference(id object){
 
 id ez_weakReferenceNonretainedObjectValue(EZWeakReference ref){
     return ref ? ref() : nil;
+
+}
+
+
+-(NSString *)nameTag{
+    return objc_getAssociatedObject(self, @selector(nameTag));
+}
+
+-(void)setNameTag:(NSString *)nameTag{
+    objc_setAssociatedObject(self, @selector(nameTag), nameTag, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
 
 }
 @end
