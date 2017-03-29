@@ -20,7 +20,7 @@
     return nil;
 }
 
-- (id)ez_findSubViewWithSubViewClass:(Class)clazz
+- (nullable id)ez_findSubViewWithSubViewClass:(Class)clazz
 {
     for (id subView in self.subviews) {
         if ([subView isKindOfClass:clazz]) {
@@ -31,7 +31,7 @@
     return nil;
 }
 
-- (id)ez_findsuperViewWithSuperViewClass:(Class)clazz
+- (nullable id)ez_findsuperViewWithSuperViewClass:(Class)clazz
 {
     if (self == nil) {
         return nil;
@@ -59,7 +59,7 @@
     return NO;
 }
 
-- (UIView *)ez_findFirstResponder {
+- (nullable UIView *)ez_findFirstResponder {
     
     if (([self isKindOfClass:[UITextField class]] || [self isKindOfClass:[UITextView class]])
         && (self.isFirstResponder)) {
