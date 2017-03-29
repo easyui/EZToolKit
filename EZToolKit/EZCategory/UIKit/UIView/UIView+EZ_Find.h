@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+NS_ASSUME_NONNULL_BEGIN
 
 @interface UIView (EZ_Find)
 @property (readonly) UIViewController *ez_viewController;
@@ -18,4 +19,9 @@
 - (UIView *)ez_findFirstResponder;
 
 
+@property (nonatomic, readonly, copy) NSArray<__kindof UIView *> *ez_superviews;
+@property (nonatomic, readonly, copy) NSArray<__kindof UIView *> *ez_allSubviews;
+- (BOOL) ez_isAncestorOf: (__kindof UIView *) aView;
+- (nullable __kindof UIView *) ez_nearestCommonAncestor: (__kindof UIView *) aView;
 @end
+NS_ASSUME_NONNULL_END
