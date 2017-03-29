@@ -10,13 +10,13 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface UIView (EZ_Find)
-@property (readonly) UIViewController *ez_viewController;
+@property (nullable, nonatomic, readonly) UIViewController *ez_viewController;
 
-- (id)ez_findSubViewWithSubViewClass:(Class)clazz;
-- (id)ez_findsuperViewWithSuperViewClass:(Class)clazz;
+- (nullable id)ez_findSubViewWithSubViewClass:(Class)clazz;
+- (nullable id)ez_findsuperViewWithSuperViewClass:(Class)clazz;
 
 - (BOOL)ez_findAndResignFirstResponder;
-- (UIView *)ez_findFirstResponder;
+- (nullable UIView *)ez_findFirstResponder;
 
 
 @property (nonatomic, readonly, copy) NSArray<__kindof UIView *> *ez_superviews;
