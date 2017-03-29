@@ -111,6 +111,8 @@
 		A6C61E321E8B67AD00DF3EE0 /* NSLayoutConstraint+EZ_Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C61E301E8B67AD00DF3EE0 /* NSLayoutConstraint+EZ_Helper.m */; };
 		A6C61E361E8B97A700DF3EE0 /* UIView+EZ_Constraint.h in Headers */ = {isa = PBXBuildFile; fileRef = A6C61E341E8B97A700DF3EE0 /* UIView+EZ_Constraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A6C61E371E8B97A700DF3EE0 /* UIView+EZ_Constraint.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C61E351E8B97A700DF3EE0 /* UIView+EZ_Constraint.m */; };
+		A6C61E3A1E8BA16C00DF3EE0 /* NSLayoutConstraint+EZ_Matching.h in Headers */ = {isa = PBXBuildFile; fileRef = A6C61E381E8BA16C00DF3EE0 /* NSLayoutConstraint+EZ_Matching.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A6C61E3B1E8BA16C00DF3EE0 /* NSLayoutConstraint+EZ_Matching.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C61E391E8BA16C00DF3EE0 /* NSLayoutConstraint+EZ_Matching.m */; };
 		BD3F87B21BCE3B5000BEA087 /* NSObject+EZ_AutoCoding.h in Headers */ = {isa = PBXBuildFile; fileRef = BD3F87B01BCE3B5000BEA087 /* NSObject+EZ_AutoCoding.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BD3F87B31BCE3B5000BEA087 /* NSObject+EZ_AutoCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = BD3F87B11BCE3B5000BEA087 /* NSObject+EZ_AutoCoding.m */; };
 		DD8195351CFDEA53005A6DD5 /* NSRunLoop+EZ_Helper.h in Headers */ = {isa = PBXBuildFile; fileRef = DD8195331CFDEA53005A6DD5 /* NSRunLoop+EZ_Helper.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -233,6 +235,8 @@
 		A6C61E301E8B67AD00DF3EE0 /* NSLayoutConstraint+EZ_Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+EZ_Helper.m"; sourceTree = "<group>"; };
 		A6C61E341E8B97A700DF3EE0 /* UIView+EZ_Constraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+EZ_Constraint.h"; sourceTree = "<group>"; };
 		A6C61E351E8B97A700DF3EE0 /* UIView+EZ_Constraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+EZ_Constraint.m"; sourceTree = "<group>"; };
+		A6C61E381E8BA16C00DF3EE0 /* NSLayoutConstraint+EZ_Matching.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+EZ_Matching.h"; sourceTree = "<group>"; };
+		A6C61E391E8BA16C00DF3EE0 /* NSLayoutConstraint+EZ_Matching.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+EZ_Matching.m"; sourceTree = "<group>"; };
 		BD3F87B01BCE3B5000BEA087 /* NSObject+EZ_AutoCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+EZ_AutoCoding.h"; sourceTree = "<group>"; };
 		BD3F87B11BCE3B5000BEA087 /* NSObject+EZ_AutoCoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+EZ_AutoCoding.m"; sourceTree = "<group>"; };
 		DD8195331CFDEA53005A6DD5 /* NSRunLoop+EZ_Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSRunLoop+EZ_Helper.h"; sourceTree = "<group>"; };
@@ -799,6 +803,8 @@
 			children = (
 				A6C61E2F1E8B67AD00DF3EE0 /* NSLayoutConstraint+EZ_Helper.h */,
 				A6C61E301E8B67AD00DF3EE0 /* NSLayoutConstraint+EZ_Helper.m */,
+				A6C61E381E8BA16C00DF3EE0 /* NSLayoutConstraint+EZ_Matching.h */,
+				A6C61E391E8BA16C00DF3EE0 /* NSLayoutConstraint+EZ_Matching.m */,
 			);
 			path = NSLayoutConstraint;
 			sourceTree = "<group>";
@@ -851,6 +857,7 @@
 				DD85174C1CF5618000DBB956 /* EZSerializeMacro.h in Headers */,
 				99ED5E9B1B274B160095CA48 /* UIWindow+EZ_helper.h in Headers */,
 				993761011C84AD8800EF8DC1 /* UIApplication+EZ_Helper.h in Headers */,
+				A6C61E3A1E8BA16C00DF3EE0 /* NSLayoutConstraint+EZ_Matching.h in Headers */,
 				9927F5081CBC0223003E0DAC /* NSString+EZ_CompareToVersion.h in Headers */,
 				992F67011C8A78DB00F7B832 /* UINavigationController+EZ_KeyboardDismiss.h in Headers */,
 				9922BEE11B271E27007E6F2A /* UIViewController+EZ_Helper.h in Headers */,
@@ -1026,6 +1033,7 @@
 				9922BEDC1B271E27007E6F2A /* UIView+EZ_Action.m in Sources */,
 				99D43DBC1BA6C84D00B78BCA /* NSObject+EZ_KVO.m in Sources */,
 				9922BECC1B271E27007E6F2A /* NSString+EZ_Helper.m in Sources */,
+				A6C61E3B1E8BA16C00DF3EE0 /* NSLayoutConstraint+EZ_Matching.m in Sources */,
 				DD8195361CFDEA53005A6DD5 /* NSRunLoop+EZ_Helper.m in Sources */,
 				99DAC76D1CA23E98008EAAAE /* NSBundle+EZ_Helper.m in Sources */,
 				9927F5091CBC0223003E0DAC /* NSString+EZ_CompareToVersion.m in Sources */,
