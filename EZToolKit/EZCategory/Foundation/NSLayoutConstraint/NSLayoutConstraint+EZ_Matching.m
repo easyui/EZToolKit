@@ -28,8 +28,9 @@
 }
 
 - (BOOL) ez_isEqualToLayoutConstraintConsideringPriority: (NSLayoutConstraint *) constraint{
-    if (![self ez_isEqualToLayoutConstraint:constraint])
+    if (![self ez_isEqualToLayoutConstraint:constraint]){
         return NO;
+    }
     
     return (self.priority == constraint.priority);
 

@@ -11,8 +11,9 @@ NS_ASSUME_NONNULL_BEGIN
 @interface NSLayoutConstraint (EZ_Helper)
 @property (nonatomic, readonly) UIView *ez_firstView;
 @property (nullable, nonatomic, readonly) UIView *ez_secondView;
-@property (nonatomic, readonly) BOOL ez_isUnary;
-@property (nonatomic, readonly) UIView *ez_nearestCommonAncestor;
+@property (nonatomic, readonly) BOOL ez_isUnary;//单约束
+@property (nonatomic, readonly) UIView *ez_nearestCommonAncestor;// 最近的父视图
+
 
 - (BOOL) ez_install;
 - (BOOL) ez_install: (float) priority;

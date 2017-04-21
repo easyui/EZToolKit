@@ -113,6 +113,8 @@
 		A6C61E371E8B97A700DF3EE0 /* UIView+EZ_Constraint.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C61E351E8B97A700DF3EE0 /* UIView+EZ_Constraint.m */; };
 		A6C61E3A1E8BA16C00DF3EE0 /* NSLayoutConstraint+EZ_Matching.h in Headers */ = {isa = PBXBuildFile; fileRef = A6C61E381E8BA16C00DF3EE0 /* NSLayoutConstraint+EZ_Matching.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A6C61E3B1E8BA16C00DF3EE0 /* NSLayoutConstraint+EZ_Matching.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C61E391E8BA16C00DF3EE0 /* NSLayoutConstraint+EZ_Matching.m */; };
+		A6C61F1E1E954CFD00DF3EE0 /* UIView+EZ_Graphics.h in Headers */ = {isa = PBXBuildFile; fileRef = A6C61F1C1E954CFD00DF3EE0 /* UIView+EZ_Graphics.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A6C61F1F1E954CFD00DF3EE0 /* UIView+EZ_Graphics.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C61F1D1E954CFD00DF3EE0 /* UIView+EZ_Graphics.m */; };
 		BD3F87B21BCE3B5000BEA087 /* NSObject+EZ_AutoCoding.h in Headers */ = {isa = PBXBuildFile; fileRef = BD3F87B01BCE3B5000BEA087 /* NSObject+EZ_AutoCoding.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BD3F87B31BCE3B5000BEA087 /* NSObject+EZ_AutoCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = BD3F87B11BCE3B5000BEA087 /* NSObject+EZ_AutoCoding.m */; };
 		DD8195351CFDEA53005A6DD5 /* NSRunLoop+EZ_Helper.h in Headers */ = {isa = PBXBuildFile; fileRef = DD8195331CFDEA53005A6DD5 /* NSRunLoop+EZ_Helper.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -237,6 +239,8 @@
 		A6C61E351E8B97A700DF3EE0 /* UIView+EZ_Constraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+EZ_Constraint.m"; sourceTree = "<group>"; };
 		A6C61E381E8BA16C00DF3EE0 /* NSLayoutConstraint+EZ_Matching.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+EZ_Matching.h"; sourceTree = "<group>"; };
 		A6C61E391E8BA16C00DF3EE0 /* NSLayoutConstraint+EZ_Matching.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+EZ_Matching.m"; sourceTree = "<group>"; };
+		A6C61F1C1E954CFD00DF3EE0 /* UIView+EZ_Graphics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+EZ_Graphics.h"; sourceTree = "<group>"; };
+		A6C61F1D1E954CFD00DF3EE0 /* UIView+EZ_Graphics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+EZ_Graphics.m"; sourceTree = "<group>"; };
 		BD3F87B01BCE3B5000BEA087 /* NSObject+EZ_AutoCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+EZ_AutoCoding.h"; sourceTree = "<group>"; };
 		BD3F87B11BCE3B5000BEA087 /* NSObject+EZ_AutoCoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+EZ_AutoCoding.m"; sourceTree = "<group>"; };
 		DD8195331CFDEA53005A6DD5 /* NSRunLoop+EZ_Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSRunLoop+EZ_Helper.h"; sourceTree = "<group>"; };
@@ -405,10 +409,10 @@
 		9922BE861B271E27007E6F2A /* NSString */ = {
 			isa = PBXGroup;
 			children = (
-				9922BE871B271E27007E6F2A /* NSString+EZ_Format.h */,
-				9922BE881B271E27007E6F2A /* NSString+EZ_Format.m */,
 				9922BE891B271E27007E6F2A /* NSString+EZ_Helper.h */,
 				9922BE8A1B271E27007E6F2A /* NSString+EZ_Helper.m */,
+				9922BE871B271E27007E6F2A /* NSString+EZ_Format.h */,
+				9922BE881B271E27007E6F2A /* NSString+EZ_Format.m */,
 				9922BE8B1B271E27007E6F2A /* NSString+EZ_Parse.h */,
 				9922BE8C1B271E27007E6F2A /* NSString+EZ_Parse.m */,
 				99563B7F1B4B68D300918045 /* NSString+EZ_Rect.h */,
@@ -670,6 +674,8 @@
 				992ADF9B1C08518C004A55CC /* UIView+EZ_Find.m */,
 				A6C61E341E8B97A700DF3EE0 /* UIView+EZ_Constraint.h */,
 				A6C61E351E8B97A700DF3EE0 /* UIView+EZ_Constraint.m */,
+				A6C61F1C1E954CFD00DF3EE0 /* UIView+EZ_Graphics.h */,
+				A6C61F1D1E954CFD00DF3EE0 /* UIView+EZ_Graphics.m */,
 			);
 			path = UIView;
 			sourceTree = "<group>";
@@ -846,6 +852,7 @@
 				9922BECD1B271E27007E6F2A /* NSString+EZ_Parse.h in Headers */,
 				A6C61E311E8B67AD00DF3EE0 /* NSLayoutConstraint+EZ_Helper.h in Headers */,
 				9922BED71B271E27007E6F2A /* UIImage+EZ_Orientation.h in Headers */,
+				A6C61F1E1E954CFD00DF3EE0 /* UIView+EZ_Graphics.h in Headers */,
 				9944BC381C86BEDB0026FDF9 /* NSNotificationCenter+EZ_MainThread.h in Headers */,
 				9922BEC51B271E27007E6F2A /* NSObject+EZ_Association.h in Headers */,
 				9922BEBF1B271E27007E6F2A /* NSData+EZ_Parse.h in Headers */,
@@ -1039,6 +1046,7 @@
 				9927F5091CBC0223003E0DAC /* NSString+EZ_CompareToVersion.m in Sources */,
 				9922BED81B271E27007E6F2A /* UIImage+EZ_Orientation.m in Sources */,
 				A6C61E371E8B97A700DF3EE0 /* UIView+EZ_Constraint.m in Sources */,
+				A6C61F1F1E954CFD00DF3EE0 /* UIView+EZ_Graphics.m in Sources */,
 				992ADFA21C09DD90004A55CC /* UIViewController+EZ_Find.m in Sources */,
 				993761021C84AD8800EF8DC1 /* UIApplication+EZ_Helper.m in Sources */,
 				9922BEEA1B272263007E6F2A /* NSBundle+EZ_AppIcon.m in Sources */,
