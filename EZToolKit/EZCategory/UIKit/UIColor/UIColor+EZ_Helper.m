@@ -144,7 +144,7 @@ static inline NSUInteger hexStrToInt(NSString *str) {
 
 static BOOL hexStrToRGBA(NSString *str,
                          CGFloat *r, CGFloat *g, CGFloat *b, CGFloat *a) {
-    str = [[str ez_stringByTrim] uppercaseString];
+    str = [[str ez_stringByTrimWhitespaceAndNewlines] uppercaseString];
     if ([str hasPrefix:@"#"]) {
         str = [str substringFromIndex:1];
     } else if ([str hasPrefix:@"0X"]) {

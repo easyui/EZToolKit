@@ -7,6 +7,8 @@
 //
 
 #import "NSString+EZ_Helper.h"
+#import <UIKit/UIKit.h>
+#import <AdSupport/AdSupport.h>
 
 @implementation NSString (EZ_Helper)
 - (NSString *)ez_reverse
@@ -41,9 +43,41 @@
 }
 
 
-- (NSString *)ez_stringByTrim{
+- (NSString *)ez_stringByTrimWhitespace{
+    NSCharacterSet *set = [NSCharacterSet whitespaceCharacterSet];
+    return [self stringByTrimmingCharactersInSet:set];
+}
+
+- (NSString *)ez_stringByTrimWhitespaceAndNewlines{
     NSCharacterSet *set = [NSCharacterSet whitespaceAndNewlineCharacterSet];
     return [self stringByTrimmingCharactersInSet:set];
+}
+
++ (NSString *)ez_UUID{
+    if([[[UIDevice currentDevice] systemVersion] floatValue] > 6.0)
+    {
+        return  [[NSUUID UUID] UUIDString];
+    }
+    else
+    {
+        CFUUIDRef uuidRef = CFUUIDCreate(NULL);
+        CFStringRef uuid = CFUUIDCreateString(NULL, uuidRef);
+        CFRelease(uuidRef);
+        return (__bridge_transfer NSString *)uuid;
+    }
+}
+
+
++ (NSString *)ez_UUIDTimestamp{
+    return  [[NSNumber numberWithLongLong:[[NSDate date] timeIntervalSince1970]*1000] stringValue];
+}
+
++ (NSString *)ez_IDFV{
+    return   [[[UIDevice currentDevice] identifierForVendor] UUIDString];;
+}
+
++ (NSString *)ez_IDFA{
+    return  [[[ASIdentifierManager sharedManager] advertisingIdentifier] UUIDString];
 }
 
 @end
