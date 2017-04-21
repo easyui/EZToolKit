@@ -14,5 +14,6 @@
 // >=ios7
 - (UIImage *)ez_snapshotImageAfterScreenUpdates:(BOOL)afterUpdates;
 
++ (NSString *)ez_identifier;
 
 @end

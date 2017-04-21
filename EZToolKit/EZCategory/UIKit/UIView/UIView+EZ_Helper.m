@@ -37,4 +37,8 @@
         return snapshotImage;
     }
 }
+
++ (NSString *)ez_identifier{
+    return [NSString stringWithFormat:@"%@Identifier",NSStringFromClass([self class])];
+}
 @end
